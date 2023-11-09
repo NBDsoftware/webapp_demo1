@@ -1,0 +1,4505 @@
+PELE version 1.8.0.b4_NBDBroadwell12072023
+[New Task] Task: 1
+* Complex
+Summary:
+Number of proteins: 15
+Number of DNA chains: 0
+Number of RNA chains: 0
+Number of Ligands: 1
+
+Loaded residues: 99
+All links
+
+Number of loaded atoms: 1578
+
+Topology Summary: 
+Number of parameterized bonds: 1583
+Number of parameterized angles: 2818
+Number of parameterized dihedrals: 3865
+Number of parameterized improper dihedrals: 306
+Number of 14 pairs: 3963
+
+Chain A_0 charge: -1.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: 1.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: 2.000
+Chain H_0 charge: -1.000
+Chain H_0 charge: -0.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 0.000
+Chain H_0 charge: -0.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 2.000
+Chain H_0 charge: -0.000
+Chain L_0 charge: 0.003
+Total charge: 6.003
+
+
+* Solvent.
+solventType: OBC
+useDebyeLength: true
+ionicStrength: 0.15
+
+
+* Potential.
+ForceField: OpenFF-OPLS2005
+
+nonBondingVersion: NB_GEN_MSCALE
+shortNeutrumNeutrum: 10
+shortChargedNeutrum: 10
+shortChargedCharged: 15
+longNeutrumNeutrum: 15
+longChargedNeutrum: 20
+longChargedCharged: 30
+
+
+Simulation Permanent Constraints: Number of constraints: 38
+HarmonicConstraintOnAtom A:39:ASN_:_CA_ to coordinates (-131.04, 47.91, -1.38) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:40:GLU_:_CA_ to coordinates (-128.79, 51.01, -1.31) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:44:THR_:_CA_ to coordinates (-135.26, 49.41, -7.91) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:49:ASN_:_CA_ to coordinates (-138.03, 33.62, -7.84) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:50:THR_:_CA_ to coordinates (-136.33, 31.64, -5.07) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:57:SER_:_CA_ to coordinates (-141.01, 28.95, 2.19) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:62:PRO_:_CA_ to coordinates (-141.42, 40.86, -1.82) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:67:HIE_:_CA_ to coordinates (-133.48, 52.32, -3.19) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:69:LYS_:_CA_ to coordinates (-135.38, 49.84, 1.3) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:74:ASN_:_CA_ to coordinates (-137.32, 33.4, 4.94) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:90:ILE_:_CA_ to coordinates (-133.08, 34.09, -4.53) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:93:SER_:_CA_ to coordinates (-133.92, 41.54, -11.61) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:126:LYS_:_CA_ to coordinates (-131.82, 34.99, -14.9) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:128:ALA_:_CA_ to coordinates (-132.84, 30.82, -10) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:33:ILE_:_CA_ to coordinates (-154.59, 27.66, 1.21) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:38:SER_:_CA_ to coordinates (-156.14, 42.13, -6.27) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:42:GLY_:_CA_ to coordinates (-161.31, 48.26, -14.42) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:44:THR_:_CA_ to coordinates (-166.33, 44.93, -10.77) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:46:THR_:_CA_ to coordinates (-169.09, 39.16, -8.58) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:65:VAL_:_CA_ to coordinates (-164.89, 43.08, -5.66) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:70:ALA_:_CA_ to coordinates (-158.68, 42.76, -3.25) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:73:TYR_:_CA_ to coordinates (-160.37, 33.55, 0.33) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:89:VAL_:_CA_ to coordinates (-161.29, 26.36, -8.94) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:91:ALA_:_CA_ to coordinates (-164.83, 31.43, -10.7) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:100:LEU_:_CA_ to coordinates (-162.21, 35.14, -14.31) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:104:PHE_:_CA_ to coordinates (-155.01, 26.11, -7.1) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:117:TRP_:_CA_ to coordinates (-152.05, 27.27, -9.93) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:121:VAL_:_CA_ to coordinates (-160.66, 34.23, -18.76) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:143:PHE_:_CA_ to coordinates (-148.03, 27.41, -13.37) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:148:GLY_:_CA_ to coordinates (-141.63, 32.25, -8.42) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:153:GLY_:_CA_ to coordinates (-151.8, 37.98, -20.71) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:154:LEU_:_CA_ to coordinates (-155.42, 36.76, -20.26) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:158:LEU_:_CA_ to coordinates (-156.17, 41.99, -19.12) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:163:PHE_:_CA_ to coordinates (-146.82, 34.17, -6.99) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:165:ASN_:_CA_ to coordinates (-144.86, 29.19, -2.7) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:170:ALA_:_CA_ to coordinates (-149.7, 27.4, 0.6) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:175:HIE_:_CA_ to coordinates (-152.94, 40.86, -9.15) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:179:ALA_:_CA_ to coordinates (-152.67, 44.88, -20.22) equilibriumDistance: 0 k: 5
+
+Task Permanent Constraints
+Number of constraints: 0
+
+ANM Permanent Constraints
+Number of constraints: 0
+
+Atom Pulling Constraints
+Number of constraints: 0
+
+Constraints on Hydrogen Bonds
+Number of constraints: 0
+
+Perturbed Atom Set COM Constraints
+Number of constraints: 0
+
+Waters Constraints
+Number of constraints: 0
+
+
+
+
+
+* Pele parameters:
+temperature: 1500
+anmFrequency: 0
+minimizationFrequency: 1
+waterPerturbationFrequency: 3
+sideChainPredictionFrequency: 2
+conformationPerturbationFrequency: 0
+minimizationRegionRadius: 1000
+sideChainPredictionRegionRadius: 6
+numberOfTopSideSelectedLinks: 0
+topSideRadius: 0
+activateProximityDetection: true, proximityDistance: 5
+numberOfPeleSteps: 10
+
+* Movement step components:
+----------------------------
+** naive
+Parameters:
+gridResolution: 10
+overlapFactor: 0.65
+rotationScalingFactor: 0.5
+rotationRangeFactor: 0.25
+translationRange: 1
+TranslationRangeType: centered translation modulus generator
+TranslationDirection: STEERED
+steeringMode: random
+steeringUpdateFrequency: 1
+atLeastOneSelectedTrial: false
+numberOfStericTrials: 200
+numberOfTrials: 10
+
+
+Minimizer Truncated Newton algorithm:
+Parameters:
+EnergyDifference: 1
+MinimumRMS: 0.1
+MaximumMinimizationIterations: 1
+MaximumNewtonIterations: 30
+nonBondingListUpdatedEachMinStep: false
+sgbUpdated: false
+alphaUpdated: false
+iterationsBetweenNBlistLongUpdate: 2
+
+* Relaxation step components:
+----------------------------
+** Side Chain Prediction:
+Zhexin Algorithm:
+Parameters:
+discardHighEnergySolutions: false
+resolution: 30
+initialOverlapFactor: 0.75
+minimalOverlapFactor: 0.7
+numberOfIterations: 1
+randomize: false
+
+
+Minimizer Null minimizer algorithm:
+No parameters for the minimizer.
+
+** Relaxation constrained minimization
+Minimizer Truncated Newton algorithm:
+Parameters:
+EnergyDifference: 1
+MinimumRMS: 1
+MaximumMinimizationIterations: 1
+MaximumNewtonIterations: 65
+nonBondingListUpdatedEachMinStep: true
+sgbUpdated: true
+alphaUpdated: false
+iterationsBetweenNBlistLongUpdate: 2
+
+
+
+
+Value of metrics at beginning of Task 1
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3862.32    -8.85117    0.487381    4.8218    5.44938    5.01401    3.37042    1.51984    
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 1
+[Energy] Task: 1, Step: 1, Initial energy:  -3862.32
+ENERGY BOND: 89.2561501432461
+ENERGY BOND SGB: 10141.79781467848
+ENERGY ANGLE: 195.0302443936329
+ENERGY ANGLE SGB: -4515.081592429546
+ENERGY TORSION: 252.3437111884124
+ENERGY 14: 2469.738779981625
+ENERGY 14 SGB: -1553.796777842789
+ENERGY NBOND: -5675.347739984506
+ENERGY NBOND SGB: 2308.630524710863
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3712.571114839421
+ENERGY NON POLAR: 30.86197047604304
+ENERGY SELF: -7605.754429181323
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.321343865859
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.638244, -0.18315, -0.747731)
+Included current side chain conformation as rotamer:
+Residue: H:161:ARG
+New Rotamer: 6 -11 -7 -18 0
+Original Angles: 60.004 -111.234 -69.6787 177.627 -2.04129
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: ---
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: ---
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: ---
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3704.48 best: -3704.48
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3543.01 best: -3704.48
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3659.87 best: -3704.48
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3684.87 best: -3704.48
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3746.07 best: -3746.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3618.67 best: -3746.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3746.07
+Best trial: 8 out of 10
+atomSet is not too far
+Perturbation Ef: -3746.07 Ei: -3830.21 dE: 84.1428 dt: 4.17261 s
+
+Side Chain Prediction:
+Running side chain prediction on 13 residues
+Side chain prediction for links: A:60, H:37-H:40, H:161, H:163, H:172-H:176, L:1
+BACKBONE CLASH!! LIG_1 :L clashed!!
+computeNonPolarNonClashingRotamers, dt: 0.000157 s
+Side Chain Prediction Ef: -3780.8 Ei: -3780.8 dE: 0 dt: 0.419902 s
+Total step time: 5.3601 s
+
+
+Value of metrics after Step 1
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3862.32    -8.85117    0.487381    4.8218    5.44938    5.01401    3.37042    1.51984    
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 2
+[Energy] Task: 1, Step: 2, Initial energy:  -3862.32
+ENERGY BOND: 89.2561501432461
+ENERGY BOND SGB: 10141.79781467848
+ENERGY ANGLE: 195.0302443936329
+ENERGY ANGLE SGB: -4515.081592429546
+ENERGY TORSION: 252.3437111884124
+ENERGY 14: 2469.738779981625
+ENERGY 14 SGB: -1553.796777842789
+ENERGY NBOND: -5675.347739984506
+ENERGY NBOND SGB: 2308.630524710863
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3712.571114839421
+ENERGY NON POLAR: 30.86197047604304
+ENERGY SELF: -7605.754429181323
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.321343865859
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.369911, -0.509698, -0.776772)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3543.34 best: -3543.34
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3730.83 best: -3730.83
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3730.83
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3795.9 best: -3795.9
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3597.32 best: -3795.9
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3576.02 best: -3795.9
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3701.3 best: -3795.9
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3563.86 best: -3795.9
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3706.89 best: -3795.9
+Current trial energy: -3664.91 best: -3795.9
+Best trial: 4 out of 10
+atomSet is not too far
+Perturbation Ef: -3795.9 Ei: -3830.21 dE: 34.313 dt: 3.32477 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3855.16 Ei: -3828.44 dE: -26.7215 dt: 1.01319 s
+
+Metropolis Ef: -3855.16 Ei: -3862.32 dE: 7.16262 Probability: 0.0904544 Accepted Step: false
+Total step time: 5.20172 s
+
+
+Value of metrics after Step 2
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3862.32    -8.85117    0.487381    4.8218    5.44938    5.01401    3.37042    1.51984    
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 3
+[Energy] Task: 1, Step: 3, Initial energy:  -3862.32
+ENERGY BOND: 89.2561501432461
+ENERGY BOND SGB: 10141.79781467848
+ENERGY ANGLE: 195.0302443936329
+ENERGY ANGLE SGB: -4515.081592429546
+ENERGY TORSION: 252.3437111884124
+ENERGY 14: 2469.738779981625
+ENERGY 14 SGB: -1553.796777842789
+ENERGY NBOND: -5675.347739984506
+ENERGY NBOND SGB: 2308.630524710863
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3712.571114839421
+ENERGY NON POLAR: 30.86197047604304
+ENERGY SELF: -7605.754429181323
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.321343865859
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.0233619, -0.298497, -0.954125)
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3795.27 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3727.19 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3608.7 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3783.36 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3710.35 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3777.93 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3700.34 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3768.1 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3681.04 best: -3795.27
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3805.5 best: -3805.5
+Best trial: 10 out of 10
+atomSet is not too far
+Perturbation Ef: -3805.5 Ei: -3830.21 dE: 24.712 dt: 4.63647 s
+
+Side Chain Prediction:
+Running side chain prediction on 14 residues
+Side chain prediction for links: A:60, A:63, H:37-H:38, H:40, H:149, H:161, H:163, H:172-H:176, L:1
+BACKBONE CLASH!! LIG_1 :L clashed!!
+computeNonPolarNonClashingRotamers, dt: 0.000166 s
+Side Chain Prediction Ef: -3837.85 Ei: -3837.85 dE: 0 dt: 0.400411 s
+Total step time: 5.79201 s
+
+
+Value of metrics after Step 3
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3862.32    -8.85117    0.487381    4.8218    5.44938    5.01401    3.37042    1.51984    
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 4
+[Energy] Task: 1, Step: 4, Initial energy:  -3862.32
+ENERGY BOND: 89.2561501432461
+ENERGY BOND SGB: 10141.79781467848
+ENERGY ANGLE: 195.0302443936329
+ENERGY ANGLE SGB: -4515.081592429546
+ENERGY TORSION: 252.3437111884124
+ENERGY 14: 2469.738779981625
+ENERGY 14 SGB: -1553.796777842789
+ENERGY NBOND: -5675.347739984506
+ENERGY NBOND SGB: 2308.630524710863
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3712.571114839421
+ENERGY NON POLAR: 30.86197047604304
+ENERGY SELF: -7605.754429181323
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.321343865859
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.921649, -0.233496, -0.309906)
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3746.01 best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3687.38 best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3746.01
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3751.79 best: -3751.79
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3751.79
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3751.79
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: --- best: -3751.79
+Best trial: 7 out of 10
+atomSet is not too far
+Perturbation Ef: -3751.79 Ei: -3830.21 dE: 78.4241 dt: 3.32228 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3813.47 Ei: -3782.19 dE: -31.2734 dt: 1.04836 s
+
+Metropolis Ef: -3813.47 Ei: -3862.32 dE: 48.8558 Probability: 7.61853e-08 Accepted Step: false
+Total step time: 5.23463 s
+
+
+Value of metrics after Step 4
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3862.32    -8.85117    0.487381    4.8218    5.44938    5.01401    3.37042    1.51984    
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 5
+[Energy] Task: 1, Step: 5, Initial energy:  -3862.32
+ENERGY BOND: 89.2561501432461
+ENERGY BOND SGB: 10141.79781467848
+ENERGY ANGLE: 195.0302443936329
+ENERGY ANGLE SGB: -4515.081592429546
+ENERGY TORSION: 252.3437111884124
+ENERGY 14: 2469.738779981625
+ENERGY 14 SGB: -1553.796777842789
+ENERGY NBOND: -5675.347739984506
+ENERGY NBOND SGB: 2308.630524710863
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3712.571114839421
+ENERGY NON POLAR: 30.86197047604304
+ENERGY SELF: -7605.754429181323
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.321343865859
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.916951, -0.24873, 0.311985)
+Current trial energy: -3798.98 best: -3798.98
+Current trial energy: -3777.5 best: -3798.98
+Current trial energy: -3725.83 best: -3798.98
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3810.71 best: -3810.71
+Current trial energy: -3826.31 best: -3826.31
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3761.25 best: -3826.31
+Current trial energy: -3822.78 best: -3826.31
+Current trial energy: -3813.93 best: -3826.31
+Current trial energy: -3824.21 best: -3826.31
+Current trial energy: -3818.97 best: -3826.31
+Best trial: 5 out of 10
+atomSet is not too far
+Perturbation Ef: -3826.31 Ei: -3830.21 dE: 3.90186 dt: 1.77199 s
+
+Side Chain Prediction:
+Running side chain prediction on 12 residues
+Side chain prediction for links: A:60, A:63-A:64, H:37-H:39, H:149, H:161, H:173-H:175, L:1
+computeNonPolarNonClashingRotamers, dt: 0.037776 s
+iteration 1 dt: 1.29663 s
+iteration 2 dt: 1.32265 s
+Minimizing atoms from residues: A:60, A:63-A:64, H:37-H:39, H:149, H:161, H:173-H:175, L:1
+Side Chain Prediction minimization, dt: 0.035623 s
+Iteration 1 dt: 2.65507 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 2.65511 s)
+Side Chain Prediction Ef: -7228.83 Ei: -3860.57 dE: -3368.26 dt: 3.0543 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3869.92 Ei: -7228.83 dE: 3358.91 dt: 0.984641 s
+
+Metropolis Ef: -3869.92 Ei: -3862.32 dE: -7.60345 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 5, Final energy:  -3869.92
+Accepted!
+Total step time: 7.06896 s
+
+
+Value of metrics after Step 5
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+1    -3869.92    -8.02924    0.46445    5.08166    5.95615    3.84505    3.44748    1.51298    
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 6
+[Energy] Task: 1, Step: 6, Initial energy:  -3869.92
+ENERGY BOND: 80.06145208583311
+ENERGY BOND SGB: 10202.42006505265
+ENERGY ANGLE: 195.512675925112
+ENERGY ANGLE SGB: -4558.459949151918
+ENERGY TORSION: 250.3839261065505
+ENERGY 14: 2471.183535830118
+ENERGY 14 SGB: -1530.859285065296
+ENERGY NBOND: -5654.706161747222
+ENERGY NBOND SGB: 2290.33814672701
+ENERGY CONSTRAINTS: 0.005477189038994509
+ENERGY VACUUM + SGB + CONSTRAINTS: 3745.879882951876
+ENERGY NON POLAR: 31.42074810015936
+ENERGY SELF: -7647.225426013149
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3869.924794961114
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.125238, 0.697031, -0.706019)
+Included current side chain conformation as rotamer:
+Residue: A:64:LYS
+New Rotamer: -6 -6 -17 -15
+Original Angles: -60.3993 -58.394 -174.216 -146.871
+Current trial energy: -3827.93 best: -3827.93
+Current trial energy: -3650.8 best: -3827.93
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3836.07 best: -3836.07
+Current trial energy: -3817.2 best: -3836.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3759.55 best: -3836.07
+Current trial energy: -3835.59 best: -3836.07
+Current trial energy: -3753.79 best: -3836.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3771.01 best: -3836.07
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3824.97 best: -3836.07
+Current trial energy: -3725.43 best: -3836.07
+Best trial: 3 out of 10
+atomSet is not too far
+Perturbation Ef: -3836.07 Ei: -3837.77 dE: 1.70062 dt: 2.18502 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3872.01 Ei: -3867.99 dE: -4.02229 dt: 1.21518 s
+
+Metropolis Ef: -3872.01 Ei: -3869.92 dE: -2.08502 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 6, Final energy:  -3872.01
+Accepted!
+Total step time: 4.63939 s
+
+
+Value of metrics after Step 6
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+2    -3872.01    -7.90663    0.531011    4.60767    5.77246    4.24194    3.61956    1.49717    
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 7
+[Energy] Task: 1, Step: 7, Initial energy:  -3872.01
+ENERGY BOND: 82.58486896005644
+ENERGY BOND SGB: 10177.73322232368
+ENERGY ANGLE: 194.1304194399318
+ENERGY ANGLE SGB: -4541.024829809165
+ENERGY TORSION: 251.3589677658597
+ENERGY 14: 2472.433584969017
+ENERGY 14 SGB: -1542.862071910389
+ENERGY NBOND: -5668.79491661106
+ENERGY NBOND SGB: 2302.55006474741
+ENERGY CONSTRAINTS: 0.02274282455670267
+ENERGY VACUUM + SGB + CONSTRAINTS: 3728.132052699894
+ENERGY NON POLAR: 31.46210571414189
+ENERGY SELF: -7631.603969757571
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3872.009811343535
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.862281, -0.349634, -0.36637)
+Included current side chain conformation as rotamer:
+Residue: H:161:ARG
+New Rotamer: 6 -11 -8 -18 0
+Original Angles: 60.0674 -110.473 -82.5889 176.564 -0.404759
+Current trial energy: -3813.69 best: -3813.69
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3744.39 best: -3813.69
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3757.38 best: -3813.69
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3798.14 best: -3813.69
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3704.29 best: -3813.69
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3830.19 best: -3830.19
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3781.82 best: -3830.19
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3771.43 best: -3830.19
+Current trial energy: -3789.34 best: -3830.19
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3754.43 best: -3830.19
+Best trial: 6 out of 10
+atomSet is not too far
+Perturbation Ef: -3830.19 Ei: -3840.78 dE: 10.589 dt: 2.42853 s
+
+Side Chain Prediction:
+Running side chain prediction on 15 residues
+Side chain prediction for links: A:60, A:63, H:37-H:40, H:149, H:161, H:163, H:173-H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.022497 s
+iteration 1 dt: 0.313902 s
+iteration 2 dt: 0.294699 s
+iteration 3 dt: 0.287882 s
+Minimizing atoms from residues: A:60, A:63, H:37-H:40, H:149, H:161, H:163, H:173-H:177, L:1
+Side Chain Prediction minimization, dt: 0.040959 s
+Iteration 1 dt: 0.937651 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 0.937686 s)
+Side Chain Prediction Ef: -7113.21 Ei: -3862.96 dE: -3250.25 dt: 1.33901 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3861.46 Ei: -7113.21 dE: 3251.76 dt: 0.984849 s
+
+Metropolis Ef: -3861.46 Ei: -3872.01 dE: 10.5505 Probability: 0.0290284 Accepted Step: false
+Total step time: 5.68308 s
+
+
+Value of metrics after Step 7
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+2    -3872.01    -7.90663    0.531011    4.60767    5.77246    4.24194    3.61956    1.49717    
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 8
+[Energy] Task: 1, Step: 8, Initial energy:  -3872.01
+ENERGY BOND: 82.58486896005644
+ENERGY BOND SGB: 10177.73322232368
+ENERGY ANGLE: 194.1304194399318
+ENERGY ANGLE SGB: -4541.024829809165
+ENERGY TORSION: 251.3589677658597
+ENERGY 14: 2472.433584969017
+ENERGY 14 SGB: -1542.862071910389
+ENERGY NBOND: -5668.79491661106
+ENERGY NBOND SGB: 2302.55006474741
+ENERGY CONSTRAINTS: 0.02274282455670267
+ENERGY VACUUM + SGB + CONSTRAINTS: 3728.132052699894
+ENERGY NON POLAR: 31.46210571414189
+ENERGY SELF: -7631.603969757571
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3872.009811343535
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.513691, 0.37549, 0.771446)
+Current trial energy: -3839.26 best: -3839.26
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3802.13 best: -3839.26
+Current trial energy: -3825.89 best: -3839.26
+Current trial energy: -3837.07 best: -3839.26
+Current trial energy: -3836.45 best: -3839.26
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3838.18 best: -3839.26
+Current trial energy: -3825.28 best: -3839.26
+Current trial energy: -3831.68 best: -3839.26
+Current trial energy: -3824.9 best: -3839.26
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3837.22 best: -3839.26
+Best trial: 1 out of 10
+atomSet is not too far
+Perturbation Ef: -3839.26 Ei: -3840.78 dE: 1.52216 dt: 1.78018 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3876.31 Ei: -3870.97 dE: -5.33244 dt: 1.16682 s
+
+Metropolis Ef: -3876.31 Ei: -3872.01 dE: -4.29733 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 8, Final energy:  -3876.31
+Accepted!
+Total step time: 4.14396 s
+
+
+Value of metrics after Step 8
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3876.31    -9.26874    0.564351    5.61904    3.97491    4.45378    3.6203    1.49575    
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 9
+[Energy] Task: 1, Step: 9, Initial energy:  -3876.31
+ENERGY BOND: 82.61976409550188
+ENERGY BOND SGB: 10171.97739729693
+ENERGY ANGLE: 192.953629338651
+ENERGY ANGLE SGB: -4535.286838158535
+ENERGY TORSION: 251.6603630799799
+ENERGY 14: 2473.196424775441
+ENERGY 14 SGB: -1544.982134951778
+ENERGY NBOND: -5678.238080797567
+ENERGY NBOND SGB: 2306.310552337287
+ENERGY CONSTRAINTS: 0.03746974076411561
+ENERGY VACUUM + SGB + CONSTRAINTS: 3720.248546756674
+ENERGY NON POLAR: 31.51128519816335
+ENERGY SELF: -7628.066971272176
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.307139317338
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.573212, -0.604238, -0.553466)
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3701.76 best: -3701.76
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3781.76 best: -3781.76
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3780.43 best: -3781.76
+Current trial energy: -3668.04 best: -3781.76
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3493.66 best: -3781.76
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3728.45 best: -3781.76
+Current trial energy: -3731.04 best: -3781.76
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3598.92 best: -3781.76
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: H:38:SER
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3788.15 best: -3788.15
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3729.01 best: -3788.15
+Best trial: 9 out of 10
+atomSet is not too far
+Perturbation Ef: -3788.15 Ei: -3844.29 dE: 56.1484 dt: 2.45682 s
+
+Side Chain Prediction:
+Running side chain prediction on 10 residues
+Side chain prediction for links: A:63, H:37-H:40, H:161, H:173-H:175, L:1
+BACKBONE CLASH!! SER_38 :H clashed!!
+computeNonPolarNonClashingRotamers, dt: 0.00159 s
+Side Chain Prediction Ef: -3815.6 Ei: -3815.6 dE: 0 dt: 0.40069 s
+Total step time: 3.62316 s
+
+
+Value of metrics after Step 9
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3876.31    -9.26874    0.564351    5.61904    3.97491    4.45378    3.6203    1.49575    
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 10
+[Energy] Task: 1, Step: 10, Initial energy:  -3876.31
+ENERGY BOND: 82.61976409550182
+ENERGY BOND SGB: 10171.97739729693
+ENERGY ANGLE: 192.953629338651
+ENERGY ANGLE SGB: -4535.286838158535
+ENERGY TORSION: 251.6603630799798
+ENERGY 14: 2473.196424775442
+ENERGY 14 SGB: -1544.982134951779
+ENERGY NBOND: -5678.238080797567
+ENERGY NBOND SGB: 2306.310552337286
+ENERGY CONSTRAINTS: 0.03746974076411561
+ENERGY VACUUM + SGB + CONSTRAINTS: 3720.248546756674
+ENERGY NON POLAR: 31.51128519816335
+ENERGY SELF: -7628.066971272176
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.307139317339
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.68258, -0.526981, -0.506335)
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3742.81 best: -3742.81
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3467.04 best: -3742.81
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3739.88 best: -3742.81
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3697.51 best: -3742.81
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3767.62 best: -3767.62
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3722.26 best: -3767.62
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3770.91 best: -3770.91
+Current trial energy: -3712.08 best: -3770.91
+Current trial energy: -3677.95 best: -3770.91
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3782.11 best: -3782.11
+Best trial: 10 out of 10
+atomSet is not too far
+Perturbation Ef: -3782.11 Ei: -3844.29 dE: 62.1868 dt: 2.11101 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3849.77 Ei: -3814.24 dE: -35.535 dt: 0.9089 s
+
+Metropolis Ef: -3849.77 Ei: -3876.31 dE: 26.535 Probability: 0.000136122 Accepted Step: false
+Total step time: 3.88724 s
+
+
+Value of metrics after Step 10
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3876.31    -9.26874    0.564351    5.61904    3.97491    4.45378    3.6203    1.49575    
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 11
+[Energy] Task: 1, Step: 11, Initial energy:  -3876.31
+ENERGY BOND: 82.61976409550182
+ENERGY BOND SGB: 10171.97739729693
+ENERGY ANGLE: 192.953629338651
+ENERGY ANGLE SGB: -4535.286838158535
+ENERGY TORSION: 251.6603630799798
+ENERGY 14: 2473.196424775442
+ENERGY 14 SGB: -1544.982134951779
+ENERGY NBOND: -5678.238080797567
+ENERGY NBOND SGB: 2306.310552337286
+ENERGY CONSTRAINTS: 0.03746974076411561
+ENERGY VACUUM + SGB + CONSTRAINTS: 3720.248546756674
+ENERGY NON POLAR: 31.51128519816335
+ENERGY SELF: -7628.066971272176
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.307139317339
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.560537, -0.265641, 0.784368)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3837.08 best: -3837.08
+Current trial energy: -3826.42 best: -3837.08
+Current trial energy: -3838.41 best: -3838.41
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3837.8 best: -3838.41
+Current trial energy: -3839.17 best: -3839.17
+Current trial energy: -3796.39 best: -3839.17
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3837.05 best: -3839.17
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3836.08 best: -3839.17
+Current trial energy: -3839.17 best: -3839.17
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3811.81 best: -3839.17
+Best trial: 5 out of 10
+atomSet is not too far
+Perturbation Ef: -3839.17 Ei: -3844.29 dE: 5.12665 dt: 1.65019 s
+
+Side Chain Prediction:
+Running side chain prediction on 9 residues
+Side chain prediction for links: A:60, A:63, H:37-H:38, H:40, H:173-H:175, L:1
+computeNonPolarNonClashingRotamers, dt: 0.012188 s
+iteration 1 dt: 0.289714 s
+iteration 2 dt: 0.288223 s
+Minimizing atoms from residues: A:60, A:63, H:37-H:38, H:40, H:173-H:175, L:1
+Side Chain Prediction minimization, dt: 0.025906 s
+Iteration 1 dt: 0.603992 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 0.604026 s)
+Side Chain Prediction Ef: -7340.59 Ei: -3871.64 dE: -3468.96 dt: 0.959588 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3869.26 Ei: -7340.59 dE: 3471.33 dt: 0.964151 s
+
+Metropolis Ef: -3869.26 Ei: -3876.31 dE: 7.04827 Probability: 0.0939918 Accepted Step: false
+Total step time: 4.48364 s
+
+
+Value of metrics after Step 11
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3876.31    -9.26874    0.564351    5.61904    3.97491    4.45378    3.6203    1.49575    
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 11, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 12
+[Energy] Task: 1, Step: 12, Initial energy:  -3876.31
+ENERGY BOND: 82.61976409550182
+ENERGY BOND SGB: 10171.97739729693
+ENERGY ANGLE: 192.953629338651
+ENERGY ANGLE SGB: -4535.286838158535
+ENERGY TORSION: 251.6603630799798
+ENERGY 14: 2473.196424775442
+ENERGY 14 SGB: -1544.982134951779
+ENERGY NBOND: -5678.238080797567
+ENERGY NBOND SGB: 2306.310552337286
+ENERGY CONSTRAINTS: 0.03746974076411561
+ENERGY VACUUM + SGB + CONSTRAINTS: 3720.248546756674
+ENERGY NON POLAR: 31.51128519816335
+ENERGY SELF: -7628.066971272176
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.307139317339
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.335394, 0.8977, 0.285736)
+Current trial energy: -3841.27 best: -3841.27
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3840.05 best: -3841.27
+Current trial energy: -3599.8 best: -3841.27
+Current trial energy: -3680.74 best: -3841.27
+Current trial energy: -3813.64 best: -3841.27
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3840.24 best: -3841.27
+Current trial energy: -3760.98 best: -3841.27
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3737.07 best: -3841.27
+Current trial energy: -3786.41 best: -3841.27
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3842.58 best: -3842.58
+Best trial: 10 out of 10
+atomSet is not too far
+Perturbation Ef: -3842.58 Ei: -3844.29 dE: 1.71172 dt: 1.65011 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3876.16 Ei: -3874.4 dE: -1.76143 dt: 0.954755 s
+
+Metropolis Ef: -3876.16 Ei: -3876.31 dE: 0.148324 Probability: 0.951458 Accepted Step: true
+[Energy] Task: 1, Step: 12, Final energy:  -3876.16
+Accepted!
+Total step time: 3.80968 s
+
+
+Value of metrics after Step 12
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+4    -3876.16    -7.85123    0.580421    6.24269    3.9062    4.5268    3.62993    1.53052    
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 12, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 13
+[Energy] Task: 1, Step: 13, Initial energy:  -3876.16
+ENERGY BOND: 80.02074085372757
+ENERGY BOND SGB: 10169.69961374335
+ENERGY ANGLE: 193.3621882135195
+ENERGY ANGLE SGB: -4535.844679106637
+ENERGY TORSION: 251.5376148330442
+ENERGY 14: 2472.510688038297
+ENERGY 14 SGB: -1544.703690899578
+ENERGY NBOND: -5675.422983303122
+ENERGY NBOND SGB: 2306.155481091309
+ENERGY CONSTRAINTS: 0.02868158706930792
+ENERGY VACUUM + SGB + CONSTRAINTS: 3717.343655050982
+ENERGY NON POLAR: 31.62402465922939
+ENERGY SELF: -7625.126495515313
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.158815805102
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.0388311, -0.890135, 0.454039)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3842.93 best: -3842.93
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3843.87 best: -3843.87
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3823.32 best: -3843.87
+Current trial energy: -3805.28 best: -3843.87
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3804.33 best: -3843.87
+Current trial energy: -3833.86 best: -3843.87
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3791.51 best: -3843.87
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3776.84 best: -3843.87
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3829.22 best: -3843.87
+Steric try out of the box. Resetting steering.
+New direction: (0.878246, -0.465542, -0.109342)
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3596.21 best: -3843.87
+Best trial: 2 out of 10
+atomSet is not too far
+Perturbation Ef: -3843.87 Ei: -3844.05 dE: 0.179109 dt: 1.94717 s
+
+Side Chain Prediction:
+Running side chain prediction on 8 residues
+Side chain prediction for links: A:60, H:37-H:38, H:161, H:173-H:175, L:1
+computeNonPolarNonClashingRotamers, dt: 0.010314 s
+iteration 1 dt: 0.27561 s
+iteration 2 dt: 0.278112 s
+Minimizing atoms from residues: A:60, H:37-H:38, H:161, H:173-H:175, L:1
+Side Chain Prediction minimization, dt: 0.02617 s
+Iteration 1 dt: 0.580107 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 0.580149 s)
+Side Chain Prediction Ef: -7259.12 Ei: -3876.51 dE: -3382.61 dt: 0.950851 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3873.72 Ei: -7259.12 dE: 3385.39 dt: 1.1482 s
+
+Metropolis Ef: -3873.72 Ei: -3876.16 dE: 2.43419 Probability: 0.441923 Accepted Step: false
+Total step time: 4.96865 s
+
+
+Value of metrics after Step 13
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+4    -3876.16    -7.85123    0.580421    6.24269    3.9062    4.5268    3.62993    1.53052    
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 13, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 14
+[Energy] Task: 1, Step: 14, Initial energy:  -3876.16
+ENERGY BOND: 80.0207408537275
+ENERGY BOND SGB: 10169.69961374335
+ENERGY ANGLE: 193.3621882135196
+ENERGY ANGLE SGB: -4535.844679106637
+ENERGY TORSION: 251.5376148330443
+ENERGY 14: 2472.510688038297
+ENERGY 14 SGB: -1544.703690899578
+ENERGY NBOND: -5675.422983303122
+ENERGY NBOND SGB: 2306.155481091308
+ENERGY CONSTRAINTS: 0.02868158706930787
+ENERGY VACUUM + SGB + CONSTRAINTS: 3717.34365505098
+ENERGY NON POLAR: 31.62402465922939
+ENERGY SELF: -7625.126495515313
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3876.158815805103
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.706351, 0.0342439, 0.707033)
+Current trial energy: -3838.79 best: -3838.79
+Current trial energy: -3838.45 best: -3838.79
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3836.65 best: -3838.79
+Current trial energy: -3825.53 best: -3838.79
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3835.48 best: -3838.79
+Current trial energy: -3839.33 best: -3839.33
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3838.65 best: -3839.33
+Current trial energy: -3837.8 best: -3839.33
+Current trial energy: -3783.81 best: -3839.33
+Current trial energy: -3830.37 best: -3839.33
+Best trial: 6 out of 10
+atomSet is not too far
+Perturbation Ef: -3839.33 Ei: -3844.05 dE: 4.71513 dt: 1.63043 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3873.41 Ei: -3872.92 dE: -0.493874 dt: 1.1993 s
+
+Metropolis Ef: -3873.41 Ei: -3876.16 dE: 2.7474 Probability: 0.397844 Accepted Step: true
+[Energy] Task: 1, Step: 14, Final energy:  -3873.41
+Accepted!
+Total step time: 4.02485 s
+
+
+Value of metrics after Step 14
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+5    -3873.41    -5.30613    0.700651    6.31557    5.85215    4.63445    3.7008    1.52518    
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 14, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 15
+[Energy] Task: 1, Step: 15, Initial energy:  -3873.41
+ENERGY BOND: 80.22633315940787
+ENERGY BOND SGB: 10180.24553165861
+ENERGY ANGLE: 193.2675812730428
+ENERGY ANGLE SGB: -4535.275522880464
+ENERGY TORSION: 251.7117520552366
+ENERGY 14: 2472.95635546673
+ENERGY 14 SGB: -1546.922074791947
+ENERGY NBOND: -5667.337869178748
+ENERGY NBOND SGB: 2301.564245534227
+ENERGY CONSTRAINTS: 0.02767312747248415
+ENERGY VACUUM + SGB + CONSTRAINTS: 3730.464005423568
+ENERGY NON POLAR: 31.97315013012864
+ENERGY SELF: -7635.848573288199
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3873.411417734503
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.0031131, 0.64334, 0.765574)
+Steric try out of the box. Resetting steering.
+New direction: (0.535692, -0.718284, 0.443962)
+Current trial energy: -3839.06 best: -3839.06
+Current trial energy: -3832.2 best: -3839.06
+Current trial energy: -3839.35 best: -3839.35
+Current trial energy: -3838.13 best: -3839.35
+Current trial energy: -3838.37 best: -3839.35
+Current trial energy: -3819.51 best: -3839.35
+Current trial energy: -3805.42 best: -3839.35
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3830.14 best: -3839.35
+Current trial energy: -3837.66 best: -3839.35
+Current trial energy: -3785.14 best: -3839.35
+Best trial: 3 out of 10
+atomSet is not too far
+Perturbation Ef: -3839.35 Ei: -3841.07 dE: 1.72175 dt: 1.67333 s
+
+Side Chain Prediction:
+Running side chain prediction on 8 residues
+Side chain prediction for links: A:63, H:37-H:38, H:161, H:173-H:175, L:1
+computeNonPolarNonClashingRotamers, dt: 0.010018 s
+iteration 1 dt: 0.270635 s
+iteration 2 dt: 0.277625 s
+Minimizing atoms from residues: A:63, H:37-H:38, H:161, H:173-H:175, L:1
+Side Chain Prediction minimization, dt: 0.026957 s
+Iteration 1 dt: 0.575352 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 0.575384 s)
+Side Chain Prediction Ef: -7251.03 Ei: -3871.65 dE: -3379.38 dt: 0.934084 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3866.81 Ei: -7251.03 dE: 3384.22 dt: 1.11384 s
+
+Metropolis Ef: -3866.81 Ei: -3873.41 dE: 6.60114 Probability: 0.109203 Accepted Step: false
+Total step time: 4.62375 s
+
+
+Value of metrics after Step 15
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+5    -3873.41    -5.30613    0.700651    6.31557    5.85215    4.63445    3.7008    1.52518    
+Exiting because of TERMINATE command received.

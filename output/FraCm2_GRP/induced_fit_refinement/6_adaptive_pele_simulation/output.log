@@ -1,0 +1,1046 @@
+NBD Suite 0.2.0b2
+------------------------------
+Nostrum Biodiscovery SL
+All rights reserved, 2023.
+
+Block: adaptive_pele_simulation
+11/02/2023 12:41:19 	INFO     Creating DataLocal directory from '3. pele_parameterizer'
+11/02/2023 12:41:19 	DEBUG    Detected truncated complex. Redirecting path to PELE templates of complex 'complex_1'
+11/02/2023 12:41:19 	INFO     Detected truncated protein model obtained from '4. topology_truncator' with 29 flexible residues and 68 frozen residues
+11/02/2023 12:41:20 	DEBUG    PDB atom names will be remapped to match structure change /dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb -> /dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/5_pele_energy_minimizer/complex_2/complex_2_2.pdb
+11/02/2023 12:41:20 	WARNING  Selection 'L:1: C10' for metric 'com_distance' has been changed to 'L:1:C10 ' to match PDB changes applied to complex 'complex_2_1 (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)'
+11/02/2023 12:41:20 	DEBUG    Looking for metal centers to constraint for PELE
+11/02/2023 12:41:20 	DEBUG    No metals were found
+11/02/2023 12:41:20 	DEBUG    Created PELE simulation control file for 'complex_2 (complex_1, 2 conformations)': /dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/pele_complex_2.conf
+11/02/2023 12:41:20 	INFO     Created adaptive PELE control file initialized with 'complex_1': /dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/pele_complex_2.conf
+11/02/2023 12:41:20 	INFO     AdaptivePELE will be executed
+11/02/2023 12:41:20 	DEBUG    DataLocal folder was copied to /dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2
+11/02/2023 12:41:20 	INFO     Running AdaptivePELE version 1.7.3 from /shared/software/conda/nbdsuite-latest/lib/python3.8/site-packages/AdaptivePELE
+11/02/2023 12:41:20 	INFO     Congratulations! No errors found in your control file!
+11/02/2023 12:41:20 	INFO     Using null density calculator (no preference for any cluster)
+11/02/2023 12:41:20 	INFO     ================================
+11/02/2023 12:41:20 	INFO                 PARAMS              
+11/02/2023 12:41:20 	INFO     ================================
+11/02/2023 12:41:20 	INFO     Restarting simulations
+11/02/2023 12:41:20 	INFO     True
+11/02/2023 12:41:20 	INFO     Debug:
+11/02/2023 12:41:20 	INFO     False
+11/02/2023 12:41:20 	INFO     Iterations: 12, Mpi processors: 16, Pele steps: 10
+11/02/2023 12:41:20 	INFO     SpawningType:
+11/02/2023 12:41:20 	INFO     inverselyProportional
+11/02/2023 12:41:20 	INFO     SimulationType:
+11/02/2023 12:41:20 	INFO     pele
+11/02/2023 12:41:20 	INFO     Clustering method:
+11/02/2023 12:41:20 	INFO     rmsd
+11/02/2023 12:41:20 	INFO     Output path: 
+11/02/2023 12:41:20 	INFO     output
+11/02/2023 12:41:20 	INFO     Initial Structures: 
+11/02/2023 12:41:20 	INFO     ['/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/5_pele_energy_minimizer/complex_2/complex_2_2.pdb']
+11/02/2023 12:41:20 	INFO     ================================
+
+
+11/02/2023 12:41:20 	INFO     Iteration
+11/02/2023 12:41:20 	INFO     0
+11/02/2023 12:41:20 	INFO     Production run...
+11/02/2023 12:41:20 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile0.conf
+11/02/2023 12:44:00 	INFO     PELE took 159.76 sec
+11/02/2023 12:44:00 	INFO     Clustering...
+11/02/2023 12:44:00 	INFO     Clustering ligand: 0.5179307460784912 sec
+11/02/2023 12:44:00 	INFO     Degeneracy
+11/02/2023 12:44:00 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_0.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     22
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_1.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     23
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_2.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     24
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_3.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     25
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_4.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     28
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_5.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     29
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_6.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     30
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_7.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     31
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_8.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     33
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_9.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     35
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_10.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     36
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_11.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     37
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_12.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     38
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_13.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     39
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     Writing to 
+11/02/2023 12:44:00 	INFO     tmp_output/initial_1_14.pdb
+11/02/2023 12:44:00 	INFO     cluster
+11/02/2023 12:44:00 	INFO     40
+11/02/2023 12:44:00 	INFO     cluster center
+11/02/2023 12:44:00 	INFO     counts & cluster centers
+11/02/2023 12:44:00 	INFO     15
+11/02/2023 12:44:00 	INFO     15
+11/02/2023 12:44:00 	INFO     Iteration
+11/02/2023 12:44:00 	INFO     1
+11/02/2023 12:44:00 	INFO     Production run...
+11/02/2023 12:44:00 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile1.conf
+11/02/2023 12:46:50 	INFO     PELE took 169.20 sec
+11/02/2023 12:46:50 	INFO     Clustering...
+11/02/2023 12:46:50 	INFO     Clustering ligand: 0.37757039070129395 sec
+11/02/2023 12:46:50 	INFO     Degeneracy
+11/02/2023 12:46:50 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1]
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_0.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     21
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_1.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     41
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_2.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     42
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_3.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     43
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_4.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     44
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_5.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     45
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_6.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     54
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_7.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     56
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_8.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     58
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_9.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     60
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_10.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     61
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_11.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     62
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_12.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     66
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_13.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     70
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     Writing to 
+11/02/2023 12:46:50 	INFO     tmp_output/initial_2_14.pdb
+11/02/2023 12:46:50 	INFO     cluster
+11/02/2023 12:46:50 	INFO     71
+11/02/2023 12:46:50 	INFO     cluster center
+11/02/2023 12:46:50 	INFO     counts & cluster centers
+11/02/2023 12:46:50 	INFO     15
+11/02/2023 12:46:50 	INFO     15
+11/02/2023 12:46:50 	INFO     Iteration
+11/02/2023 12:46:50 	INFO     2
+11/02/2023 12:46:50 	INFO     Production run...
+11/02/2023 12:46:50 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile2.conf
+11/02/2023 12:49:20 	INFO     PELE took 150.36 sec
+11/02/2023 12:49:20 	INFO     Clustering...
+11/02/2023 12:49:21 	INFO     Clustering ligand: 0.3922848701477051 sec
+11/02/2023 12:49:21 	INFO     Degeneracy
+11/02/2023 12:49:21 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_0.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     46
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_1.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     47
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_2.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     48
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_3.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     49
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_4.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     50
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_5.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     57
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_6.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     64
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_7.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     68
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_8.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     69
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_9.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     72
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_10.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     73
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_11.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     74
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_12.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     76
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_13.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     85
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     Writing to 
+11/02/2023 12:49:21 	INFO     tmp_output/initial_3_14.pdb
+11/02/2023 12:49:21 	INFO     cluster
+11/02/2023 12:49:21 	INFO     88
+11/02/2023 12:49:21 	INFO     cluster center
+11/02/2023 12:49:21 	INFO     counts & cluster centers
+11/02/2023 12:49:21 	INFO     15
+11/02/2023 12:49:21 	INFO     15
+11/02/2023 12:49:21 	INFO     Iteration
+11/02/2023 12:49:21 	INFO     3
+11/02/2023 12:49:21 	INFO     Production run...
+11/02/2023 12:49:21 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile3.conf
+11/02/2023 12:51:57 	INFO     PELE took 156.38 sec
+11/02/2023 12:51:57 	INFO     Clustering...
+11/02/2023 12:51:58 	INFO     Clustering ligand: 0.3415813446044922 sec
+11/02/2023 12:51:58 	INFO     Degeneracy
+11/02/2023 12:51:58 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1]
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_0.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     11
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_1.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     13
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_2.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     14
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_3.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     77
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_4.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     78
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_5.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     80
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_6.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     81
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_7.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     82
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_8.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     84
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_9.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     86
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_10.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     90
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_11.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     91
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_12.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     92
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_13.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     94
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     Writing to 
+11/02/2023 12:51:58 	INFO     tmp_output/initial_4_14.pdb
+11/02/2023 12:51:58 	INFO     cluster
+11/02/2023 12:51:58 	INFO     96
+11/02/2023 12:51:58 	INFO     cluster center
+11/02/2023 12:51:58 	INFO     counts & cluster centers
+11/02/2023 12:51:58 	INFO     15
+11/02/2023 12:51:58 	INFO     15
+11/02/2023 12:51:58 	INFO     Iteration
+11/02/2023 12:51:58 	INFO     4
+11/02/2023 12:51:58 	INFO     Production run...
+11/02/2023 12:51:58 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile4.conf
+11/02/2023 12:54:23 	INFO     PELE took 145.32 sec
+11/02/2023 12:54:23 	INFO     Clustering...
+11/02/2023 12:54:23 	INFO     Clustering ligand: 0.4128103256225586 sec
+11/02/2023 12:54:23 	INFO     Degeneracy
+11/02/2023 12:54:23 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1]
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_0.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     12
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_1.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     98
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_2.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     99
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_3.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     100
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_4.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     101
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_5.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     102
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_6.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     103
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_7.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     104
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_8.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     105
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_9.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     106
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_10.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     107
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_11.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     108
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_12.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     109
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_13.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     115
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     Writing to 
+11/02/2023 12:54:23 	INFO     tmp_output/initial_5_14.pdb
+11/02/2023 12:54:23 	INFO     cluster
+11/02/2023 12:54:23 	INFO     116
+11/02/2023 12:54:23 	INFO     cluster center
+11/02/2023 12:54:23 	INFO     counts & cluster centers
+11/02/2023 12:54:23 	INFO     15
+11/02/2023 12:54:23 	INFO     15
+11/02/2023 12:54:23 	INFO     Iteration
+11/02/2023 12:54:23 	INFO     5
+11/02/2023 12:54:23 	INFO     Production run...
+11/02/2023 12:54:23 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile5.conf
+11/02/2023 12:56:56 	INFO     PELE took 152.92 sec
+11/02/2023 12:56:56 	INFO     Clustering...
+11/02/2023 12:56:57 	INFO     Clustering ligand: 0.3689577579498291 sec
+11/02/2023 12:56:57 	INFO     Degeneracy
+11/02/2023 12:56:57 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0]
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_0.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     8
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_1.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     77
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_2.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     110
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_3.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     111
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_4.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     114
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_5.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     117
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_6.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     118
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_7.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     119
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_8.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     120
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_9.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     122
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_10.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     123
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_11.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     124
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_12.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     125
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_13.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     126
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     Writing to 
+11/02/2023 12:56:57 	INFO     tmp_output/initial_6_14.pdb
+11/02/2023 12:56:57 	INFO     cluster
+11/02/2023 12:56:57 	INFO     127
+11/02/2023 12:56:57 	INFO     cluster center
+11/02/2023 12:56:57 	INFO     counts & cluster centers
+11/02/2023 12:56:57 	INFO     15
+11/02/2023 12:56:57 	INFO     15
+11/02/2023 12:56:57 	INFO     Iteration
+11/02/2023 12:56:57 	INFO     6
+11/02/2023 12:56:57 	INFO     Production run...
+11/02/2023 12:56:57 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile6.conf
+11/02/2023 12:59:53 	INFO     PELE took 175.81 sec
+11/02/2023 12:59:53 	INFO     Clustering...
+11/02/2023 12:59:53 	INFO     Clustering ligand: 0.36848974227905273 sec
+11/02/2023 12:59:53 	INFO     Degeneracy
+11/02/2023 12:59:53 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_0.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     129
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_1.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     130
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_2.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     131
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_3.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     132
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_4.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     133
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_5.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     134
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_6.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     135
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_7.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     137
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_8.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     138
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_9.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     139
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_10.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     140
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_11.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     142
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_12.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     143
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_13.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     144
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     Writing to 
+11/02/2023 12:59:53 	INFO     tmp_output/initial_7_14.pdb
+11/02/2023 12:59:53 	INFO     cluster
+11/02/2023 12:59:53 	INFO     145
+11/02/2023 12:59:53 	INFO     cluster center
+11/02/2023 12:59:53 	INFO     counts & cluster centers
+11/02/2023 12:59:53 	INFO     15
+11/02/2023 12:59:53 	INFO     15
+11/02/2023 12:59:53 	INFO     Iteration
+11/02/2023 12:59:53 	INFO     7
+11/02/2023 12:59:53 	INFO     Production run...
+11/02/2023 12:59:53 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile7.conf
+11/02/2023 13:02:35 	INFO     PELE took 161.88 sec
+11/02/2023 13:02:35 	INFO     Clustering...
+11/02/2023 13:02:35 	INFO     Clustering ligand: 0.4489939212799072 sec
+11/02/2023 13:02:35 	INFO     Degeneracy
+11/02/2023 13:02:35 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1]
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_0.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     91
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_1.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     136
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_2.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     146
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_3.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     147
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_4.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     148
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_5.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     150
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_6.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     151
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_7.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     152
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_8.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     153
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_9.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     154
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_10.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     155
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_11.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     157
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_12.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     158
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_13.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     160
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     Writing to 
+11/02/2023 13:02:35 	INFO     tmp_output/initial_8_14.pdb
+11/02/2023 13:02:35 	INFO     cluster
+11/02/2023 13:02:35 	INFO     161
+11/02/2023 13:02:35 	INFO     cluster center
+11/02/2023 13:02:35 	INFO     counts & cluster centers
+11/02/2023 13:02:35 	INFO     15
+11/02/2023 13:02:35 	INFO     15
+11/02/2023 13:02:35 	INFO     Iteration
+11/02/2023 13:02:35 	INFO     8
+11/02/2023 13:02:35 	INFO     Production run...
+11/02/2023 13:02:35 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile8.conf
+11/02/2023 13:05:25 	INFO     PELE took 169.15 sec
+11/02/2023 13:05:25 	INFO     Clustering...
+11/02/2023 13:05:25 	INFO     Clustering ligand: 0.4024784564971924 sec
+11/02/2023 13:05:25 	INFO     Degeneracy
+11/02/2023 13:05:25 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_0.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     57
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_1.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     60
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_2.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     61
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_3.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     64
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_4.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     65
+11/02/2023 13:05:25 	INFO     alternative structure
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_5.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     68
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_6.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     69
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_7.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     122
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_8.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     123
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_9.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     124
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_10.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     125
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_11.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     127
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_12.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     129
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_13.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     163
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     Writing to 
+11/02/2023 13:05:25 	INFO     tmp_output/initial_9_14.pdb
+11/02/2023 13:05:25 	INFO     cluster
+11/02/2023 13:05:25 	INFO     164
+11/02/2023 13:05:25 	INFO     cluster center
+11/02/2023 13:05:25 	INFO     counts & cluster centers
+11/02/2023 13:05:25 	INFO     15
+11/02/2023 13:05:25 	INFO     15
+11/02/2023 13:05:25 	INFO     Iteration
+11/02/2023 13:05:25 	INFO     9
+11/02/2023 13:05:25 	INFO     Production run...
+11/02/2023 13:05:25 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile9.conf
+11/02/2023 13:08:27 	INFO     PELE took 181.73 sec
+11/02/2023 13:08:27 	INFO     Clustering...
+11/02/2023 13:08:27 	INFO     Clustering ligand: 0.42435574531555176 sec
+11/02/2023 13:08:27 	INFO     Degeneracy
+11/02/2023 13:08:27 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1]
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_0.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     106
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_1.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     110
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_2.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     113
+11/02/2023 13:08:27 	INFO     alternative structure
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_3.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     114
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_4.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     115
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_5.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     119
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_6.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     120
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_7.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     131
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_8.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     166
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_9.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     169
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_10.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     170
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_11.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     171
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_12.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     172
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_13.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     173
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     Writing to 
+11/02/2023 13:08:27 	INFO     tmp_output/initial_10_14.pdb
+11/02/2023 13:08:27 	INFO     cluster
+11/02/2023 13:08:27 	INFO     175
+11/02/2023 13:08:27 	INFO     cluster center
+11/02/2023 13:08:27 	INFO     counts & cluster centers
+11/02/2023 13:08:27 	INFO     15
+11/02/2023 13:08:27 	INFO     15
+11/02/2023 13:08:27 	INFO     Iteration
+11/02/2023 13:08:27 	INFO     10
+11/02/2023 13:08:27 	INFO     Production run...
+11/02/2023 13:08:27 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile10.conf
+11/02/2023 13:10:56 	INFO     PELE took 149.01 sec
+11/02/2023 13:10:56 	INFO     Clustering...
+11/02/2023 13:10:57 	INFO     Clustering ligand: 0.45165014266967773 sec
+11/02/2023 13:10:57 	INFO     Degeneracy
+11/02/2023 13:10:57 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_0.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     108
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_1.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     141
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_2.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     176
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_3.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     177
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_4.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     178
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_5.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     180
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_6.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     181
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_7.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     182
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_8.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     183
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_9.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     184
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_10.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     185
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_11.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     186
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_12.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     187
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_13.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     188
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     Writing to 
+11/02/2023 13:10:57 	INFO     tmp_output/initial_11_14.pdb
+11/02/2023 13:10:57 	INFO     cluster
+11/02/2023 13:10:57 	INFO     189
+11/02/2023 13:10:57 	INFO     cluster center
+11/02/2023 13:10:57 	INFO     counts & cluster centers
+11/02/2023 13:10:57 	INFO     15
+11/02/2023 13:10:57 	INFO     15
+11/02/2023 13:10:57 	INFO     Iteration
+11/02/2023 13:10:57 	INFO     11
+11/02/2023 13:10:57 	INFO     Production run...
+11/02/2023 13:10:57 	INFO     mpirun -np 16 /shared/software/easybuild/x86_64/software/PELE/1.8b4/bin/PELE_mpi tmp_output/controlFile11.conf
+11/02/2023 13:13:27 	INFO     PELE took 149.75 sec
+11/02/2023 13:13:27 	INFO     Clustering...
+11/02/2023 13:13:27 	INFO     Clustering ligand: 0.38123464584350586 sec
+11/02/2023 13:13:27 	INFO     Degeneracy
+11/02/2023 13:13:27 	INFO     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+11/02/2023 13:13:27 	INFO     Simulation has finished
+11/02/2023 13:13:27 	DEBUG    Initializing PELE DataHandler
+11/02/2023 13:13:28 	DEBUG    Removing outliers from PELE dataframe
+11/02/2023 13:13:30 	DEBUG    Searching bandwidth to cover 60.0% of poses...
+   - Trying bandwidth 13.5
+   - Got a clustering coverage of 1.0
+   - Trying bandwidth 7.25
+   - Got a clustering coverage of 0.2876526458616011
+   - Trying bandwidth 10.375
+   - Got a clustering coverage of 1.0
+   - Trying bandwidth 8.8125
+   - Got a clustering coverage of 1.0
+11/02/2023 13:13:47 	INFO     Selected clustering bandwidth 8.8125 covers 100.0% of all poses
+11/02/2023 13:13:47 	DEBUG    Extracted step '1' from trajectory '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/3/trajectory_15.xtc' to '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_D.pdb'
+11/02/2023 13:13:47 	DEBUG    Extracted step '2' from trajectory '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/0/trajectory_12.xtc' to '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_A.pdb'
+11/02/2023 13:13:47 	DEBUG    Extracted step '3' from trajectory '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/0/trajectory_13.xtc' to '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_C.pdb'
+11/02/2023 13:13:47 	DEBUG    Extracted step '3' from trajectory '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/10/trajectory_2.xtc' to '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_B.pdb'
+11/02/2023 13:13:47 	DEBUG    Extracted step '1' from trajectory '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/4/trajectory_2.xtc' to '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_E.pdb'
+11/02/2023 13:13:47 	INFO     PDB information of the PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/4_topology_truncator/complexes/complex_2_1.pdb' will be updated by information from the reference PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_D.pdb'
+11/02/2023 13:13:47 	INFO     The total number of residues to be updated is: 97
+11/02/2023 13:13:48 	DEBUG    Adding conformation 'cluster_D (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)' to topology 'complex_2 (complex_1, 2 conformations)'
+11/02/2023 13:13:48 	INFO     PDB information of the PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/4_topology_truncator/complexes/complex_2_1.pdb' will be updated by information from the reference PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_A.pdb'
+11/02/2023 13:13:48 	INFO     The total number of residues to be updated is: 97
+11/02/2023 13:13:49 	DEBUG    Adding conformation 'cluster_A (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)' to topology 'complex_2 (complex_1, 3 conformations)'
+11/02/2023 13:13:49 	INFO     PDB information of the PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/4_topology_truncator/complexes/complex_2_1.pdb' will be updated by information from the reference PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_C.pdb'
+11/02/2023 13:13:49 	INFO     The total number of residues to be updated is: 97
+11/02/2023 13:13:50 	DEBUG    Adding conformation 'cluster_C (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)' to topology 'complex_2 (complex_1, 4 conformations)'
+11/02/2023 13:13:50 	INFO     PDB information of the PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/4_topology_truncator/complexes/complex_2_1.pdb' will be updated by information from the reference PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_B.pdb'
+11/02/2023 13:13:50 	INFO     The total number of residues to be updated is: 97
+11/02/2023 13:13:50 	DEBUG    Adding conformation 'cluster_B (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)' to topology 'complex_2 (complex_1, 5 conformations)'
+11/02/2023 13:13:50 	INFO     PDB information of the PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/4_topology_truncator/complexes/complex_2_1.pdb' will be updated by information from the reference PDB '/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/results/cluster_E.pdb'
+11/02/2023 13:13:50 	INFO     The total number of residues to be updated is: 97
+11/02/2023 13:13:51 	DEBUG    Adding conformation 'cluster_E (/dataweb/user_files/mmunicoy/ifr/FraCm2_GRP/complex_3_2.pdb)' to topology 'complex_2 (complex_1, 6 conformations)'
+11/02/2023 13:13:52 	DEBUG    Automatically disabling previous conformations:
+11/02/2023 13:13:52 	DEBUG     - Conformation complex_2_2: complex_1
+11/02/2023 13:13:52 	DEBUG    New topology has been assigned to block adaptive_pele_simulation: BlockTopology (2 complexes, 0 systems, 0 ligands)
+   - Topology has the following content:
+     - Complex topology complex_1 (complex_1, 1 conformations)
+     - Complex topology complex_2 (complex_1, 7 conformations)

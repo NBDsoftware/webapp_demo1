@@ -1,0 +1,999 @@
+PELE version 1.8.0.b4_NBDBroadwell12072023
+[New Task] Task: 1
+* Complex
+Summary:
+Number of proteins: 15
+Number of DNA chains: 0
+Number of RNA chains: 0
+Number of Ligands: 1
+
+Loaded residues: 99
+All links
+
+Number of loaded atoms: 1578
+
+Topology Summary: 
+Number of parameterized bonds: 1583
+Number of parameterized angles: 2818
+Number of parameterized dihedrals: 3865
+Number of parameterized improper dihedrals: 306
+Number of 14 pairs: 3963
+
+Chain A_0 charge: -1.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: 1.000
+Chain A_0 charge: -0.000
+Chain A_0 charge: 2.000
+Chain H_0 charge: -1.000
+Chain H_0 charge: -0.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 0.000
+Chain H_0 charge: -0.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 1.000
+Chain H_0 charge: 2.000
+Chain H_0 charge: -0.000
+Chain L_0 charge: 0.003
+Total charge: 6.003
+
+
+* Solvent.
+solventType: OBC
+useDebyeLength: true
+ionicStrength: 0.15
+
+
+* Potential.
+ForceField: OpenFF-OPLS2005
+
+nonBondingVersion: NB_GEN_MSCALE
+shortNeutrumNeutrum: 10
+shortChargedNeutrum: 10
+shortChargedCharged: 15
+longNeutrumNeutrum: 15
+longChargedNeutrum: 20
+longChargedCharged: 30
+
+
+Simulation Permanent Constraints: Number of constraints: 38
+HarmonicConstraintOnAtom A:39:ASN_:_CA_ to coordinates (-131.04, 47.91, -1.39) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:40:GLU_:_CA_ to coordinates (-128.8, 51.01, -1.32) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:44:THR_:_CA_ to coordinates (-135.27, 49.41, -7.92) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:49:ASN_:_CA_ to coordinates (-138.03, 33.61, -7.84) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:50:THR_:_CA_ to coordinates (-136.32, 31.63, -5.07) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:57:SER_:_CA_ to coordinates (-141.01, 28.95, 2.19) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:62:PRO_:_CA_ to coordinates (-141.35, 40.87, -1.81) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:67:HIE_:_CA_ to coordinates (-133.48, 52.32, -3.2) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:69:LYS_:_CA_ to coordinates (-135.38, 49.85, 1.28) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:74:ASN_:_CA_ to coordinates (-137.32, 33.4, 4.94) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:90:ILE_:_CA_ to coordinates (-133.08, 34.09, -4.53) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:93:SER_:_CA_ to coordinates (-133.92, 41.53, -11.62) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:126:LYS_:_CA_ to coordinates (-131.82, 34.98, -14.91) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom A:128:ALA_:_CA_ to coordinates (-132.84, 30.81, -10) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:33:ILE_:_CA_ to coordinates (-154.59, 27.66, 1.22) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:38:SER_:_CA_ to coordinates (-156.16, 42.16, -6.24) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:42:GLY_:_CA_ to coordinates (-161.31, 48.26, -14.43) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:44:THR_:_CA_ to coordinates (-166.33, 44.93, -10.77) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:46:THR_:_CA_ to coordinates (-169.09, 39.16, -8.58) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:65:VAL_:_CA_ to coordinates (-164.9, 43.08, -5.66) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:70:ALA_:_CA_ to coordinates (-158.69, 42.75, -3.23) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:73:TYR_:_CA_ to coordinates (-160.37, 33.55, 0.34) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:89:VAL_:_CA_ to coordinates (-161.28, 26.37, -8.94) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:91:ALA_:_CA_ to coordinates (-164.83, 31.43, -10.7) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:100:LEU_:_CA_ to coordinates (-162.21, 35.14, -14.31) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:104:PHE_:_CA_ to coordinates (-155.01, 26.11, -7.09) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:117:TRP_:_CA_ to coordinates (-152.06, 27.27, -9.92) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:121:VAL_:_CA_ to coordinates (-160.66, 34.23, -18.76) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:143:PHE_:_CA_ to coordinates (-148.03, 27.41, -13.37) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:148:GLY_:_CA_ to coordinates (-141.64, 32.26, -8.42) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:153:GLY_:_CA_ to coordinates (-151.8, 37.97, -20.71) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:154:LEU_:_CA_ to coordinates (-155.42, 36.76, -20.26) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:158:LEU_:_CA_ to coordinates (-156.17, 41.99, -19.12) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:163:PHE_:_CA_ to coordinates (-146.89, 34.24, -6.98) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:165:ASN_:_CA_ to coordinates (-144.86, 29.18, -2.7) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:170:ALA_:_CA_ to coordinates (-149.7, 27.4, 0.6) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:175:HIE_:_CA_ to coordinates (-152.95, 40.8, -9.18) equilibriumDistance: 0 k: 5
+HarmonicConstraintOnAtom H:179:ALA_:_CA_ to coordinates (-152.68, 44.87, -20.22) equilibriumDistance: 0 k: 5
+
+Task Permanent Constraints
+Number of constraints: 0
+
+ANM Permanent Constraints
+Number of constraints: 0
+
+Atom Pulling Constraints
+Number of constraints: 0
+
+Constraints on Hydrogen Bonds
+Number of constraints: 0
+
+Perturbed Atom Set COM Constraints
+Number of constraints: 0
+
+Waters Constraints
+Number of constraints: 0
+
+
+
+
+
+* Pele parameters:
+temperature: 1500
+anmFrequency: 0
+minimizationFrequency: 1
+waterPerturbationFrequency: 3
+sideChainPredictionFrequency: 2
+conformationPerturbationFrequency: 0
+minimizationRegionRadius: 1000
+sideChainPredictionRegionRadius: 6
+numberOfTopSideSelectedLinks: 0
+topSideRadius: 0
+activateProximityDetection: true, proximityDistance: 5
+numberOfPeleSteps: 10
+
+* Movement step components:
+----------------------------
+** naive
+Parameters:
+gridResolution: 10
+overlapFactor: 0.65
+rotationScalingFactor: 0.5
+rotationRangeFactor: 0.25
+translationRange: 1
+TranslationRangeType: centered translation modulus generator
+TranslationDirection: STEERED
+steeringMode: random
+steeringUpdateFrequency: 1
+atLeastOneSelectedTrial: false
+numberOfStericTrials: 200
+numberOfTrials: 10
+
+
+Minimizer Truncated Newton algorithm:
+Parameters:
+EnergyDifference: 1
+MinimumRMS: 0.1
+MaximumMinimizationIterations: 1
+MaximumNewtonIterations: 30
+nonBondingListUpdatedEachMinStep: false
+sgbUpdated: false
+alphaUpdated: false
+iterationsBetweenNBlistLongUpdate: 2
+
+* Relaxation step components:
+----------------------------
+** Side Chain Prediction:
+Zhexin Algorithm:
+Parameters:
+discardHighEnergySolutions: false
+resolution: 30
+initialOverlapFactor: 0.75
+minimalOverlapFactor: 0.7
+numberOfIterations: 1
+randomize: false
+
+
+Minimizer Null minimizer algorithm:
+No parameters for the minimizer.
+
+** Relaxation constrained minimization
+Minimizer Truncated Newton algorithm:
+Parameters:
+EnergyDifference: 1
+MinimumRMS: 1
+MaximumMinimizationIterations: 1
+MaximumNewtonIterations: 65
+nonBondingListUpdatedEachMinStep: true
+sgbUpdated: true
+alphaUpdated: false
+iterationsBetweenNBlistLongUpdate: 2
+
+
+
+
+Value of metrics at beginning of Task 1
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3856.05    -6.14473    0.247787    4.33541    8.30095    3.05794    3.67788    1.56045    
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 1
+[Energy] Task: 1, Step: 1, Initial energy:  -3856.05
+ENERGY BOND: 83.82497713860818
+ENERGY BOND SGB: 10180.73040374037
+ENERGY ANGLE: 195.9303361599063
+ENERGY ANGLE SGB: -4531.581258533475
+ENERGY TORSION: 248.3812725633155
+ENERGY 14: 2477.21052458442
+ENERGY 14 SGB: -1562.653038745042
+ENERGY NBOND: -5654.640851867305
+ENERGY NBOND SGB: 2313.032609177005
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3750.234974217803
+ENERGY NON POLAR: 30.81259300122887
+ENERGY SELF: -7637.097047500244
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3856.049480281213
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.476764, -0.147438, -0.866579)
+Included current side chain conformation as rotamer:
+Residue: A:63:HID
+New Rotamer: -3 9
+Original Angles: -34.7604 92.363
+Clash in side chain! Residue: L:1:LIGZ
+Included current side chain conformation as rotamer:
+Residue: H:159:LYS
+New Rotamer: 8 16 -7 -7
+Original Angles: 81.1743 164.815 -73.3088 -68.4172
+Current trial energy: -3571.85 best: -3571.85
+Current trial energy: -3668.09 best: -3668.09
+Current trial energy: -3534.23 best: -3668.09
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3654.49 best: -3668.09
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3723.68 best: -3723.68
+Current trial energy: -3563.28 best: -3723.68
+Current trial energy: -3735.48 best: -3735.48
+Current trial energy: -3689.6 best: -3735.48
+Current trial energy: -3710.53 best: -3735.48
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3662.38 best: -3735.48
+Best trial: 7 out of 10
+atomSet is not too far
+Perturbation Ef: -3735.48 Ei: -3826.8 dE: 91.3216 dt: 2.38852 s
+
+Side Chain Prediction:
+Running side chain prediction on 17 residues
+Side chain prediction for links: A:60, A:62-A:64, H:38, H:40, H:149, H:159-H:161, H:163, H:173-H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.051395 s
+SIDE CHAIN CLASH!! LIG_1 :L clashed!!
+iteration 1 dt: 1.69214 s
+iteration 2 dt: 1.69332 s
+iteration 3 dt: 1.6538 s
+Minimizing atoms from residues: A:60, A:62-A:64, H:38, H:40, H:149, H:159-H:161, H:163, H:173-H:177, L:1
+Side Chain Prediction minimization, dt: 0.042905 s
+Iteration 1 dt: 5.0824 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 5.08243 s)
+Side Chain Prediction Ef: -6978.73 Ei: -3779.04 dE: -3199.68 dt: 5.53915 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3817.7 Ei: -6978.73 dE: 3161.03 dt: 0.948942 s
+
+Metropolis Ef: -3817.7 Ei: -3856.05 dE: 38.3526 Probability: 2.58318e-06 Accepted Step: false
+Total step time: 9.825 s
+
+
+Value of metrics after Step 1
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3856.05    -6.14473    0.247787    4.33541    8.30095    3.05794    3.67788    1.56045    
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 1, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 2
+[Energy] Task: 1, Step: 2, Initial energy:  -3856.05
+ENERGY BOND: 83.82497713860818
+ENERGY BOND SGB: 10180.73040374037
+ENERGY ANGLE: 195.9303361599063
+ENERGY ANGLE SGB: -4531.581258533475
+ENERGY TORSION: 248.3812725633155
+ENERGY 14: 2477.21052458442
+ENERGY 14 SGB: -1562.653038745042
+ENERGY NBOND: -5654.640851867305
+ENERGY NBOND SGB: 2313.032609177005
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3750.234974217803
+ENERGY NON POLAR: 30.81259300122887
+ENERGY SELF: -7637.097047500244
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3856.049480281213
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.0716472, 0.96815, 0.239902)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3754.66 best: -3754.66
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3792.3 best: -3792.3
+Current trial energy: -3765.59 best: -3792.3
+Current trial energy: -3796.9 best: -3796.9
+Current trial energy: -3696.2 best: -3796.9
+Current trial energy: -3778.82 best: -3796.9
+Current trial energy: -3742.09 best: -3796.9
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3643.22 best: -3796.9
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3538.52 best: -3796.9
+Current trial energy: -3765.78 best: -3796.9
+Best trial: 4 out of 10
+atomSet is not too far
+Perturbation Ef: -3796.9 Ei: -3826.8 dE: 29.9027 dt: 2.0097 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3852.96 Ei: -3827.16 dE: -25.7952 dt: 1.01041 s
+
+Metropolis Ef: -3852.96 Ei: -3856.05 dE: 3.08971 Probability: 0.354683 Accepted Step: false
+Total step time: 3.90834 s
+
+
+Value of metrics after Step 2
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+0    -3856.05    -6.14473    0.247787    4.33541    8.30095    3.05794    3.67788    1.56045    
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 2, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 3
+[Energy] Task: 1, Step: 3, Initial energy:  -3856.05
+ENERGY BOND: 83.82497713860818
+ENERGY BOND SGB: 10180.73040374037
+ENERGY ANGLE: 195.9303361599063
+ENERGY ANGLE SGB: -4531.581258533475
+ENERGY TORSION: 248.3812725633155
+ENERGY 14: 2477.21052458442
+ENERGY 14 SGB: -1562.653038745042
+ENERGY NBOND: -5654.640851867305
+ENERGY NBOND SGB: 2313.032609177005
+ENERGY CONSTRAINTS: 0
+ENERGY VACUUM + SGB + CONSTRAINTS: 3750.234974217803
+ENERGY NON POLAR: 30.81259300122887
+ENERGY SELF: -7637.097047500244
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3856.049480281213
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.400573, 0.79244, -0.459979)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3799.7 best: -3799.7
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3618.5 best: -3799.7
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3583.69 best: -3799.7
+Current trial energy: -3790.03 best: -3799.7
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3771.38 best: -3799.7
+Current trial energy: -3592.08 best: -3799.7
+Current trial energy: -3689.88 best: -3799.7
+Current trial energy: -3797.65 best: -3799.7
+Current trial energy: -3748.23 best: -3799.7
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3766.1 best: -3799.7
+Best trial: 1 out of 10
+atomSet is not too far
+Perturbation Ef: -3799.7 Ei: -3826.8 dE: 27.1011 dt: 2.2138 s
+
+Side Chain Prediction:
+Running side chain prediction on 13 residues
+Side chain prediction for links: A:46, A:63-A:64, H:38, H:40, H:149, H:161, H:163, H:173-H:175, H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.040451 s
+iteration 1 dt: 1.32736 s
+iteration 2 dt: 1.30788 s
+iteration 3 dt: 1.30325 s
+Minimizing atoms from residues: A:46, A:63-A:64, H:38, H:40, H:149, H:161, H:163, H:173-H:175, H:177, L:1
+Side Chain Prediction minimization, dt: 0.037714 s
+Iteration 1 dt: 3.97643 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 3.97646 s)
+Side Chain Prediction Ef: -7094.08 Ei: -3835.07 dE: -3259.01 dt: 4.41365 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3852.87 Ei: -7094.08 dE: 3241.21 dt: 1.05156 s
+
+Metropolis Ef: -3852.87 Ei: -3856.05 dE: 3.1807 Probability: 0.344019 Accepted Step: true
+[Energy] Task: 1, Step: 3, Final energy:  -3852.87
+Accepted!
+Total step time: 8.97696 s
+
+
+Value of metrics after Step 3
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+1    -3852.87    -8.72132    0.341625    4.31467    6.01649    5.91697    6.08355    5.95693    
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 3, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 4
+[Energy] Task: 1, Step: 4, Initial energy:  -3852.87
+ENERGY BOND: 89.60214182750529
+ENERGY BOND SGB: 10162.21408646265
+ENERGY ANGLE: 193.3854846347399
+ENERGY ANGLE SGB: -4546.278439232741
+ENERGY TORSION: 248.7604073906615
+ENERGY 14: 2474.173413159186
+ENERGY 14 SGB: -1530.434999421056
+ENERGY NBOND: -5630.83766010839
+ENERGY NBOND SGB: 2263.008282329804
+ENERGY CONSTRAINTS: 0.1078559049300515
+ENERGY VACUUM + SGB + CONSTRAINTS: 3723.700572947288
+ENERGY NON POLAR: 30.84850742885192
+ENERGY SELF: -7607.417862676074
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3852.868782299934
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.746674, -0.00772711, -0.665145)
+Current trial energy: -3765.95 best: -3765.95
+Current trial energy: -3723.84 best: -3765.95
+Current trial energy: -3669.69 best: -3765.95
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3629.6 best: -3765.95
+Current trial energy: -3610.88 best: -3765.95
+Current trial energy: -3685.38 best: -3765.95
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3624.38 best: -3765.95
+Current trial energy: -3716.84 best: -3765.95
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3646.29 best: -3765.95
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3763.93 best: -3765.95
+Best trial: 1 out of 10
+atomSet is not too far
+Perturbation Ef: -3765.95 Ei: -3820.72 dE: 54.7689 dt: 2.04747 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3843.64 Ei: -3808.61 dE: -35.0241 dt: 1.01829 s
+
+Metropolis Ef: -3843.64 Ei: -3852.87 dE: 9.2308 Probability: 0.0451962 Accepted Step: true
+[Energy] Task: 1, Step: 4, Final energy:  -3843.64
+Accepted!
+Total step time: 4.32094 s
+
+
+Value of metrics after Step 4
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+2    -3843.64    3.34843    0.332976    3.82071    8.72184    6.07859    5.99823    6.00457    
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 4, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 5
+[Energy] Task: 1, Step: 5, Initial energy:  -3843.64
+ENERGY BOND: 80.78084436736701
+ENERGY BOND SGB: 10169.62765254496
+ENERGY ANGLE: 194.0419884250544
+ENERGY ANGLE SGB: -4541.497564227101
+ENERGY TORSION: 245.4674527599125
+ENERGY 14: 2472.90648009132
+ENERGY 14 SGB: -1540.162967467961
+ENERGY NBOND: -5623.585950076763
+ENERGY NBOND SGB: 2294.827753681171
+ENERGY CONSTRAINTS: 0.1631412843178
+ENERGY VACUUM + SGB + CONSTRAINTS: 3752.568831382282
+ENERGY NON POLAR: 31.35134346915565
+ENERGY SELF: -7627.558158223783
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3843.637983372344
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.642428, 0.133022, 0.754713)
+Current trial energy: -3582.82 best: -3582.82
+Current trial energy: -3762.62 best: -3762.62
+Current trial energy: -3792.35 best: -3792.35
+Current trial energy: -3736.61 best: -3792.35
+Current trial energy: -3606.46 best: -3792.35
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3778.45 best: -3792.35
+Current trial energy: -3491.48 best: -3792.35
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3582.88 best: -3792.35
+Current trial energy: -3712.8 best: -3792.35
+Current trial energy: -3743.16 best: -3792.35
+Best trial: 3 out of 10
+atomSet is not too far
+Perturbation Ef: -3792.35 Ei: -3810.18 dE: 17.8237 dt: 2.09456 s
+
+Side Chain Prediction:
+Running side chain prediction on 14 residues
+Side chain prediction for links: A:46, A:62-A:64, H:38, H:40, H:149, H:159, H:161, H:173, H:175-H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.044308 s
+SIDE CHAIN CLASH!! LIG_1 :L clashed!!
+iteration 1 dt: 1.10364 s
+iteration 2 dt: 1.07764 s
+iteration 3 dt: 1.04635 s
+iteration 4 dt: 1.04352 s
+Minimizing atoms from residues: A:46, A:62-A:64, H:38, H:40, H:149, H:159, H:161, H:173, H:175-H:177, L:1
+Side Chain Prediction minimization, dt: 0.03577 s
+Iteration 1 dt: 4.3072 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 4.30723 s)
+Side Chain Prediction Ef: -7147.42 Ei: -3823.53 dE: -3323.89 dt: 4.77417 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3862.19 Ei: -7147.42 dE: 3285.23 dt: 1.21462 s
+
+Metropolis Ef: -3862.19 Ei: -3843.64 dE: -18.5491 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 5, Final energy:  -3862.19
+Accepted!
+Total step time: 9.38554 s
+
+
+Value of metrics after Step 5
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3862.19    -6.92256    0.408436    3.44293    6.87504    5.72411    5.76079    5.6952    
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 5, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 6
+[Energy] Task: 1, Step: 6, Initial energy:  -3862.19
+ENERGY BOND: 85.68105238362104
+ENERGY BOND SGB: 10188.25937417786
+ENERGY ANGLE: 193.4398464845443
+ENERGY ANGLE SGB: -4560.416637532948
+ENERGY TORSION: 241.1796617343483
+ENERGY 14: 2472.774197055538
+ENERGY 14 SGB: -1541.840206014178
+ENERGY NBOND: -5660.983473680326
+ENERGY NBOND SGB: 2324.445693083023
+ENERGY CONSTRAINTS: 0.1334953769947651
+ENERGY VACUUM + SGB + CONSTRAINTS: 3742.67300306848
+ENERGY NON POLAR: 31.40800290042238
+ENERGY SELF: -7636.268046720031
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.187040751129
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (-0.856614, -0.229311, -0.462201)
+Included current side chain conformation as rotamer:
+Residue: H:173:GLN
+New Rotamer: -18 6 6
+Original Angles: 179.942 58.6822 56.8641
+Current trial energy: -3789.3 best: -3789.3
+Current trial energy: -3620.12 best: -3789.3
+Current trial energy: -3634.13 best: -3789.3
+Current trial energy: -3766.99 best: -3789.3
+Current trial energy: -3760.26 best: -3789.3
+Current trial energy: -3662.04 best: -3789.3
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3787.52 best: -3789.3
+Current trial energy: -3679.33 best: -3789.3
+Current trial energy: -3791.61 best: -3791.61
+Current trial energy: -3685.26 best: -3791.61
+Best trial: 9 out of 10
+atomSet is not too far
+Perturbation Ef: -3791.61 Ei: -3828.75 dE: 37.1409 dt: 2.14198 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3851.53 Ei: -3812.8 dE: -38.7346 dt: 1.03395 s
+
+Metropolis Ef: -3851.53 Ei: -3862.19 dE: 10.6532 Probability: 0.0280453 Accepted Step: false
+Total step time: 4.07415 s
+
+
+Value of metrics after Step 6
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+3    -3862.19    -6.92256    0.408436    3.44293    6.87504    5.72411    5.76079    5.6952    
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 6, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 7
+[Energy] Task: 1, Step: 7, Initial energy:  -3862.19
+ENERGY BOND: 85.68105238362104
+ENERGY BOND SGB: 10188.25937417786
+ENERGY ANGLE: 193.4398464845443
+ENERGY ANGLE SGB: -4560.416637532948
+ENERGY TORSION: 241.1796617343483
+ENERGY 14: 2472.774197055538
+ENERGY 14 SGB: -1541.840206014178
+ENERGY NBOND: -5660.983473680326
+ENERGY NBOND SGB: 2324.445693083023
+ENERGY CONSTRAINTS: 0.1334953769947651
+ENERGY VACUUM + SGB + CONSTRAINTS: 3742.67300306848
+ENERGY NON POLAR: 31.40800290042238
+ENERGY SELF: -7636.268046720031
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3862.187040751129
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.794842, 0.283895, -0.536312)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3815.22 best: -3815.22
+Current trial energy: -3810.82 best: -3815.22
+Current trial energy: -3790.22 best: -3815.22
+Current trial energy: -3770.02 best: -3815.22
+Current trial energy: -3803.4 best: -3815.22
+Current trial energy: -3754.79 best: -3815.22
+Current trial energy: -3674.04 best: -3815.22
+Current trial energy: -3817.75 best: -3817.75
+Current trial energy: -3822.58 best: -3822.58
+Current trial energy: -3822.81 best: -3822.81
+Best trial: 10 out of 10
+atomSet is not too far
+Perturbation Ef: -3822.81 Ei: -3828.75 dE: 5.9421 dt: 2.07236 s
+
+Side Chain Prediction:
+Running side chain prediction on 11 residues
+Side chain prediction for links: A:46, A:63-A:64, H:38, H:40, H:149, H:159, H:161, H:175, H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.038401 s
+iteration 1 dt: 0.878095 s
+iteration 2 dt: 0.871997 s
+Minimizing atoms from residues: A:46, A:63-A:64, H:38, H:40, H:149, H:159, H:161, H:175, H:177, L:1
+Side Chain Prediction minimization, dt: 0.031063 s
+Iteration 1 dt: 1.78129 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 1.78133 s)
+Side Chain Prediction Ef: -7207.67 Ei: -3857.99 dE: -3349.69 dt: 2.19791 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3872.07 Ei: -7207.67 dE: 3335.61 dt: 0.972858 s
+
+Metropolis Ef: -3872.07 Ei: -3862.19 dE: -9.87895 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 7, Final energy:  -3872.07
+Accepted!
+Total step time: 6.48975 s
+
+
+Value of metrics after Step 7
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+4    -3872.07    -4.71299    0.413082    4.92226    6.68653    5.9151    5.74422    5.85694    
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 7, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 8
+[Energy] Task: 1, Step: 8, Initial energy:  -3872.07
+ENERGY BOND: 80.31816053803428
+ENERGY BOND SGB: 10218.0216316947
+ENERGY ANGLE: 192.8719368550995
+ENERGY ANGLE SGB: -4578.440770089689
+ENERGY TORSION: 239.9357067928778
+ENERGY 14: 2471.064115689246
+ENERGY 14 SGB: -1532.000423675596
+ENERGY NBOND: -5657.540860808885
+ENERGY NBOND SGB: 2319.88649663981
+ENERGY CONSTRAINTS: 0.1544679293677196
+ENERGY VACUUM + SGB + CONSTRAINTS: 3754.270461564966
+ENERGY NON POLAR: 31.71176528817317
+ENERGY SELF: -7658.048213645539
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3872.0659867924
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.173842, -0.795634, 0.580298)
+Current trial energy: -3760.53 best: -3760.53
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3780.87 best: -3780.87
+Current trial energy: -3716.06 best: -3780.87
+Current trial energy: -3803.24 best: -3803.24
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3792.97 best: -3803.24
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3607.89 best: -3803.24
+Current trial energy: -3815.7 best: -3815.7
+Current trial energy: -3816.37 best: -3816.37
+Current trial energy: -3839.02 best: -3839.02
+Current trial energy: -3834.63 best: -3839.02
+Best trial: 9 out of 10
+atomSet is not too far
+Perturbation Ef: -3839.02 Ei: -3838.34 dE: -0.688315 dt: 2.25244 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3878.34 Ei: -3871.54 dE: -6.80221 dt: 1.14921 s
+
+Metropolis Ef: -3878.34 Ei: -3872.07 dE: -6.2705 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 8, Final energy:  -3878.34
+Accepted!
+Total step time: 4.58476 s
+
+
+Value of metrics after Step 8
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+5    -3878.34    -6.34136    0.364278    4.89093    8.95126    5.86983    5.67692    5.80676    
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 8, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 9
+[Energy] Task: 1, Step: 9, Initial energy:  -3878.34
+ENERGY BOND: 81.12049054476449
+ENERGY BOND SGB: 10195.49530365646
+ENERGY ANGLE: 191.9904575122768
+ENERGY ANGLE SGB: -4568.210797305065
+ENERGY TORSION: 240.3933462111705
+ENERGY 14: 2471.371812543736
+ENERGY 14 SGB: -1533.74462343548
+ENERGY NBOND: -5673.17030949448
+ENERGY NBOND SGB: 2322.825718837664
+ENERGY CONSTRAINTS: 0.1768603245544447
+ENERGY VACUUM + SGB + CONSTRAINTS: 3728.248259395602
+ENERGY NON POLAR: 31.25920448833901
+ENERGY SELF: -7637.843950191154
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3878.336486307214
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.599023, -0.618318, -0.508778)
+Included current side chain conformation as rotamer:
+Residue: H:161:ARG
+New Rotamer: -4 -17 10 16 0
+Original Angles: -40.5991 -171.961 100.504 156.016 -1.87782
+Current trial energy: -3791.47 best: -3791.47
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3738.46 best: -3791.47
+Current trial energy: -3771.66 best: -3791.47
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3807.07 best: -3807.07
+Current trial energy: -3775.05 best: -3807.07
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3703.22 best: -3807.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3802.69 best: -3807.07
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3767.2 best: -3807.07
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3820.09 best: -3820.09
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3719.34 best: -3820.09
+Best trial: 9 out of 10
+atomSet is not too far
+Perturbation Ef: -3820.09 Ei: -3844.71 dE: 24.6184 dt: 2.74721 s
+
+Side Chain Prediction:
+Running side chain prediction on 15 residues
+Side chain prediction for links: A:46, A:62-A:65, H:38, H:40, H:149, H:151, H:161, H:163, H:173, H:175, H:177, L:1
+computeNonPolarNonClashingRotamers, dt: 0.04775 s
+iteration 1 dt: 0.912174 s
+iteration 2 dt: 0.921839 s
+iteration 3 dt: 0.882355 s
+Minimizing atoms from residues: A:46, A:62-A:65, H:38, H:40, H:149, H:151, H:161, H:163, H:173, H:175, H:177, L:1
+Side Chain Prediction minimization, dt: 0.036621 s
+Iteration 1 dt: 2.75321 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 2.75325 s)
+Side Chain Prediction Ef: -6959.03 Ei: -3857.76 dE: -3101.27 dt: 3.20796 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3848.74 Ei: -6959.03 dE: 3110.3 dt: 0.999206 s
+
+Metropolis Ef: -3848.74 Ei: -3878.34 dE: 29.5976 Probability: 4.87226e-05 Accepted Step: false
+Total step time: 7.88622 s
+
+
+Value of metrics after Step 9
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+5    -3878.34    -6.34136    0.364278    4.89093    8.95126    5.86983    5.67692    5.80676    
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 9, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 10
+[Energy] Task: 1, Step: 10, Initial energy:  -3878.34
+ENERGY BOND: 81.12049054476449
+ENERGY BOND SGB: 10195.49530365646
+ENERGY ANGLE: 191.9904575122768
+ENERGY ANGLE SGB: -4568.210797305065
+ENERGY TORSION: 240.3933462111705
+ENERGY 14: 2471.371812543736
+ENERGY 14 SGB: -1533.74462343548
+ENERGY NBOND: -5673.17030949448
+ENERGY NBOND SGB: 2322.825718837664
+ENERGY CONSTRAINTS: 0.1768603245544447
+ENERGY VACUUM + SGB + CONSTRAINTS: 3728.248259395602
+ENERGY NON POLAR: 31.25920448833901
+ENERGY SELF: -7637.843950191154
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3878.336486307214
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.274281, -0.94313, -0.187818)
+Current trial energy: -3783.28 best: -3783.28
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3787.84 best: -3787.84
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: A:63:HID
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3683.94 best: -3787.84
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3698.71 best: -3787.84
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3811.53 best: -3811.53
+Current trial energy: -3774.41 best: -3811.53
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3774.15 best: -3811.53
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3727.2 best: -3811.53
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3744.34 best: -3811.53
+Current trial energy: -3783.98 best: -3811.53
+Best trial: 5 out of 10
+atomSet is not too far
+Perturbation Ef: -3811.53 Ei: -3844.71 dE: 33.1756 dt: 2.91911 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3866.45 Ei: -3842.47 dE: -23.9786 dt: 0.985646 s
+
+Metropolis Ef: -3866.45 Ei: -3878.34 dE: 11.887 Probability: 0.0185396 Accepted Step: false
+Total step time: 4.81067 s
+
+
+Value of metrics after Step 10
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+5    -3878.34    -6.34136    0.364278    4.89093    8.95126    5.86983    5.67692    5.80676    
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {rotationScalingFactor: 0.05}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {rotationScalingFactor: 0.2}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {translationRange: 0.5}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {translationRange: 1}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {steeringUpdateFrequency: 0}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {steeringUpdateFrequency: 1}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {numberOfTrials: 30}
+[Parameter change]  Task: 1, Step: 10, Perturbation::parameters -> {numberOfTrials: 10}
+
+
+[New Step] Step: 11
+[Energy] Task: 1, Step: 11, Initial energy:  -3878.34
+ENERGY BOND: 81.12049054476449
+ENERGY BOND SGB: 10195.49530365646
+ENERGY ANGLE: 191.9904575122768
+ENERGY ANGLE SGB: -4568.210797305065
+ENERGY TORSION: 240.3933462111705
+ENERGY 14: 2471.371812543736
+ENERGY 14 SGB: -1533.74462343548
+ENERGY NBOND: -5673.17030949448
+ENERGY NBOND SGB: 2322.825718837664
+ENERGY CONSTRAINTS: 0.1768603245544447
+ENERGY VACUUM + SGB + CONSTRAINTS: 3728.248259395602
+ENERGY NON POLAR: 31.25920448833901
+ENERGY SELF: -7637.843950191154
+ENERGY VACUUM + SGB + CONSTRAINTS + SELF + NON POLAR: -3878.336486307214
+
+Perturbation:
+beginning: atomSet is not too far
+New direction: (0.672265, 0.0739874, 0.736604)
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3787.34 best: -3787.34
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3819.72 best: -3819.72
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3806.63 best: -3819.72
+Current trial energy: -3767.01 best: -3819.72
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3843.82 best: -3843.82
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3804.77 best: -3843.82
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3823.14 best: -3843.82
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3727.01 best: -3843.82
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3813.38 best: -3843.82
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Clash in side chain! Residue: L:1:LIGZ
+Current trial energy: -3839.63 best: -3843.82
+Best trial: 5 out of 10
+atomSet is not too far
+Perturbation Ef: -3843.82 Ei: -3844.71 dE: 0.886358 dt: 2.68367 s
+
+Side Chain Prediction:
+Running side chain prediction on 12 residues
+Side chain prediction for links: A:46, A:63-A:64, H:38, H:40, H:149, H:151, H:161, H:173-H:175, L:1
+computeNonPolarNonClashingRotamers, dt: 0.046537 s
+iteration 1 dt: 0.83102 s
+iteration 2 dt: 0.81853 s
+iteration 3 dt: 0.825535 s
+Minimizing atoms from residues: A:46, A:63-A:64, H:38, H:40, H:149, H:151, H:161, H:173-H:175, L:1
+Side Chain Prediction minimization, dt: 0.034376 s
+Iteration 1 dt: 2.50969 s
+(findMinimumInEnergyUsingRotamerLibrary, dt: 2.50972 s)
+Side Chain Prediction Ef: -7125.72 Ei: -3879.29 dE: -3246.42 dt: 2.96383 s
+
+Minimization:
+Minimizing atoms from residues: A:46-A:47, A:60-A:65, A:92, H:36-H:40, H:45, H:70, H:117, H:119, H:148-H:151, H:159-H:164, H:171-H:177, L:1
+Minimization Ef: -3878.63 Ei: -7125.72 dE: 3247.08 dt: 1.18363 s
+
+Metropolis Ef: -3878.63 Ei: -3878.34 dE: -0.296386 Probability: 1 Accepted Step: true
+[Energy] Task: 1, Step: 11, Final energy:  -3878.63
+Accepted!
+Total step time: 8.12788 s
+
+
+Value of metrics after Step 11
+numberOfAcceptedPeleSteps    currentEnergy    bindingEnergy    ligandSASA    ligandRMSD    L1_C2-H38_OG    H38_HG-H175_ND1    H175_HE2-H40_OE2    H175_HE2-H40_OE1    
+6    -3878.63    -9.39358    0.354641    5.11342    9.67914    5.87552    5.64586    5.8587    
+Exiting because of TERMINATE command received.

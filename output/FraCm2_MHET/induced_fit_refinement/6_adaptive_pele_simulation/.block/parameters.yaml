@@ -1,0 +1,82 @@
+activate_pele_minimum_steps: true
+adaptive_clustering_type: rmsd
+adaptive_epochs: 12
+adaptive_spawning_type: inverselyProportional
+adaptive_threshold_calculator_conditions:
+- 1
+- 0.6
+- 0.4
+- 0.0
+adaptive_threshold_calculator_values:
+- 1.75
+- 2.5
+- 4
+- 6
+combine_pele_results_across_blocks: false
+disable_default_pele_parameter_changes: false
+disable_pele_anm: false
+disable_pele_minimization: false
+max_conformations_to_take: 5
+only_prepare_input: false
+pele_activate_proximity_detection: true
+pele_anm_frequency: 0
+pele_anm_minimizer_algorithm: TruncatedNewton
+pele_anm_minimizer_alpha_updated: false
+pele_anm_minimizer_maximum_newton_iterations: 25
+pele_anm_minimizer_maxit: 1
+pele_anm_minimizer_non_bonding_list_updated_each_min_step: false
+pele_anm_minimizer_rmstol: 0.2
+pele_backbone_constraints_level: 3
+pele_forcefield: openff_unconstrained-2.0.0.offxml
+pele_include_metal_constraints: true
+pele_ligand_resolution: 30
+pele_minimization_frequency: 1
+pele_minimizer_algorithm: TruncatedNewton
+pele_minimizer_alpha_updated: false
+pele_minimizer_ediff: 1.0
+pele_minimizer_maxit: 1
+pele_minimizer_non_bonding_list_updated_each_min_step: true
+pele_minimizer_rmstol: 1.0
+pele_perturbation_COM_constraint_constant: 1.0
+pele_perturbation_box_radius: 5.0
+pele_perturbation_box_type: sphericalBox
+pele_perturbation_influence_range: 3.0
+pele_perturbation_level: 2
+pele_perturbation_overlap_factor: 0.65
+pele_perturbation_perturb_all_at_once: false
+pele_perturbation_steric_trials: 200
+pele_perturbation_translation_direction: steered
+pele_perturbation_type: naive
+pele_representatives_criterion: interaction_min
+pele_side_chain_prediction_frequency: 2
+pele_side_chain_prediction_region_radius: 6.0
+pele_side_chain_prediction_resolution: 30
+pele_solvent: OBC
+pele_steps: 10
+pele_tasks_metrics:
+- selection_group_1:
+  - 'L:1: C8 '
+  selection_group_2:
+  - 'H:38: OG '
+  tag: L1_C8-H38_OG
+  type: com_distance
+- selection_group_1:
+  - 'H:38: HG '
+  selection_group_2:
+  - 'H:175: ND1'
+  tag: H38_HG-H175_ND1
+  type: com_distance
+- selection_group_1:
+  - 'H:175: HE2'
+  selection_group_2:
+  - 'H:40: OE2'
+  tag: H175_HE2-H40_OE2
+  type: com_distance
+- selection_group_1:
+  - 'H:175: HE2'
+  selection_group_2:
+  - 'H:40: OE1'
+  tag: H175_HE2-H40_OE1
+  type: com_distance
+pele_temperature: 1500.0
+pele_trajectory_format: xtc

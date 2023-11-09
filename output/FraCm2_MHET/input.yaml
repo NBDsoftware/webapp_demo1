@@ -1,0 +1,107 @@
+complex_data: complex_1_3.pdb
+complex_ligand_selection: L:1
+working_directory: .
+name: induced_fit_refinement
+static_name: false
+cpus: 16
+verbosity: debug
+seed: 44155
+restart: false
+pipeline:
+- block: topology_extractor
+  options:
+    check_topology: true
+    explicit_h_in_smiles: false
+    remove_implicit_hydrogen: false
+    fix_structures: true
+    assemble_conformations: true
+    reindex_atoms: false
+- flow: induced_fit_refinement
+  options:
+    pele_forcefield: openff_unconstrained-2.0.0.offxml
+    pele_solvent: OBC
+    pele_ligand_resolution: 30
+    pele_minimizer_ediff: 1.0
+    pele_minimizer_rmstol: 1.0
+    pele_minimizer_maxit: 1
+    pele_trajectory_format: xtc
+    pele_perturbation_level: 2
+    pele_perturbation_steric_trials: 200
+    pele_include_metal_constraints: true
+    pele_backbone_constraints_level: 3
+    pele_steps: 10
+    pele_temperature: 1500
+    pele_anm_frequency: 0
+    pele_minimization_frequency: 1
+    pele_side_chain_prediction_frequency: 2
+    pele_side_chain_prediction_region_radius: 6
+    pele_activate_proximity_detection: true
+    pele_perturbation_COM_constraint_constant: 1.0
+    pele_perturbation_type: naive
+    pele_perturbation_translation_direction: steered
+    pele_perturbation_rotation_angles: nonCoupled
+    pele_perturbation_overlap_factor: 0.65
+    pele_perturbation_influence_range: 3
+    pele_perturbation_perturb_all_at_once: false
+    pele_perturbation_box_type: sphericalBox
+    pele_perturbation_box_radius: 5.0
+    pele_minimizer_algorithm: TruncatedNewton
+    pele_minimizer_non_bonding_list_updated_each_min_step: true
+    pele_minimizer_alpha_updated: false
+    activate_pele_minimum_steps: true
+    pele_tasks_metrics:
+    - type: com_distance
+      tag: L1_C8-H38_OG
+      selection_group_1: L:1:_C8_
+      selection_group_2: H:38:_OG_
+    - type: com_distance
+      tag: H38_HG-H175_ND1
+      selection_group_1: H:38:_HG_
+      selection_group_2: H:175:_ND1
+    - type: com_distance
+      tag: H175_HE2-H40_OE2
+      selection_group_1: H:175:_HE2
+      selection_group_2: H:40:_OE2
+    - type: com_distance
+      tag: H175_HE2-H40_OE1
+      selection_group_1: H:175:_HE2
+      selection_group_2: H:40:_OE1
+    disable_default_pele_parameter_changes: false
+    disable_pele_minimization: false
+    disable_pele_anm: false
+    pele_anm_minimizer_algorithm: TruncatedNewton
+    pele_anm_minimizer_maxit: 1
+    pele_anm_minimizer_maximum_newton_iterations: 25
+    pele_anm_minimizer_rmstol: 0.2
+    pele_anm_minimizer_alpha_updated: false
+    pele_anm_minimizer_non_bonding_list_updated_each_min_step: false
+    combine_pele_results_across_blocks: false
+    pele_representatives_criterion: interaction_min
+    pele_side_chain_prediction_resolution: 30
+    only_prepare_input: false
+    max_conformations_to_take: 5
+    adaptive_epochs: 12
+    adaptive_spawning_type: inverselyProportional
+    adaptive_clustering_type: rmsd
+    adaptive_threshold_calculator_values:
+    - 1.75
+    - 2.5
+    - 4
+    - 6
+    adaptive_threshold_calculator_conditions:
+    - 1
+    - 0.6
+    - 0.4
+    - 0.0
+    pele_charge_method: am1bcc
+    exclude_terminal_rotamers: true
+    freeze_common_substructure: false
+    core_constraints: []
+    set_unique_pdb_atom_names: true
+    fix_side_chains: true
+    mutable_residues: false
+    disable_failed_topologies: false
+    reallocate_ligand: true
+    flexible_region_radius: 9.0
+    frozen_region_radius: 14.0
+    only_enabled_topologies: false
