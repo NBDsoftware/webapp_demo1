@@ -1,5 +1,8 @@
-# webapp_demo1
-This package contains the analysis script and the raw data to reproduce the results from the first demo of Nostrum's web app
+# Predicting polyethylene teraphthalate deconstruction with fragaceatoxin C
+This package contains the analysis script and the raw data to reproduce the results from the first demo of Nostrum's web app.
+It consists on using the latest version of Nostrum web app to reproduce some of the computational results published in [this](https://www.nature.com/articles/s41929-023-01048-6) Nature Catalysis article. Our goal is to predict the relative activity of different compounds with our computational methods and find certain correlations with experimental data reported in this study.
+
+To analyze the simulations a Python script is available in this repository. Find below the instructions to run it.
 
 ## Requirements
 The analysis script requires the following:
