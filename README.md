@@ -15,3 +15,13 @@ python PELEAnalyzer.py -i PATH_TO_THE_REPORT_FILES -TE 4.5 -CD 4.5 -CE 8 9 10 -N
 ```
 
 For more information on how to use the script or other options, use the <b> -h </b> flag to get the help message.
+
+
+## Examples
+
+```
+python PELEAnalyzer.py -i output/FraCm2_MHET/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/*/report* -TE 4.5 -CD 4.5 -CE 8 9 10 -V -NP 1 -A NRA -o MHET_FraCm2
+python PELEAnalyzer.py -i output/FraCm2_PAE/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/*/report* -TE 4.5 -CD 4.5 -CE 8 9 10 -V -NP 1 -A NRA -o PAE_FraCm2
+python PELEAnalyzer.py -i output/FraCm2_GRP/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/*/report* -TE 4.5 -CD 4.5 -CE 8 11 12 -V -NP 1 -A NRA -o GRP_FraCm2 -NE 3
+python PELEAnalyzer.py -i output/FraCm2_VIN/induced_fit_refinement/6_adaptive_pele_simulation/complex_2/output/*/report* -TE 4.5 -CD 4.5 -CE 8 9 10 -V -NP 1 -A NRA -o GRP_FraCm2
+```
